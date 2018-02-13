@@ -1,0 +1,31 @@
+{
+  "name": "beakr_website",
+  "version": "1.0.0",
+  "description": "This is a repository for the beakr website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack",
+    "dev": "webpack && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-beakr/beakr_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team-beakr/beakr_website/issues"
+  },
+  "homepage": "https://github.com/team-beakr/beakr_website#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "file-loader": "^1.1.6",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
