@@ -36,6 +36,37 @@ app.get('/support(.html)?$', function (req, res) {
   res.sendFile(path.join(DIST_DIR, "/views/support.html"));
 });
 
+//Send login.html when the user access the web
+app.get('/login(.html)?$', function (req, res) {
+  res.sendFile(path.join(DIST_DIR, "/views/login.html"));
+});
+
+//Send signup.html when the user access the web
+app.get('/signup(.html)?$', function (req, res) {
+  res.sendFile(path.join(DIST_DIR, "/views/signup.html"));
+});
+
+//Send dashboard.html when the user access the web
+app.get('/dashboard(.html)?$', function (req, res) {
+  res.sendFile(path.join(DIST_DIR, "/views/dashboard.html"));
+});
+
+//Send search.html when the user access the web
+app.get('/search(.html)?$', function (req, res) {
+  res.sendFile(path.join(DIST_DIR, "/views/search.html"));
+});
+
+//Send request.html when the user access the web
+app.get('/request(.html)?$', function (req, res) {
+  res.sendFile(path.join(DIST_DIR, "/views/request.html"));
+});
+
+//Send message.html when the user access the web
+app.get('/message(.html)?$', function (req, res) {
+  res.sendFile(path.join(DIST_DIR, "/views/message.html"));
+});
+
+
 /*
   ERROR CATCHING
 */
