@@ -1,6 +1,7 @@
 require("file-loader?name=views/index.html!./views/index.html");
 require("file-loader?name=views/about.html!./views/about.html");
 require("file-loader?name=views/contact.html!./views/contact.html");
+require("file-loader?name=views/contact.html!./views/support.html");
 import './stylesheets/style.css';
 
 var hello = document.getElementById("hello");

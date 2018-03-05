@@ -12,7 +12,7 @@ app.use(express.static(DIST_DIR));
   INDEX Routes
 */
 
-//Send contact.html when the user access the web
+//Send index.html when the user access the web
 app.get(['/','/index(.html)?$','/home$'], function (req, res) {
   res.sendFile(path.join(DIST_DIR, "/views/index.html"));
 });
@@ -21,7 +21,7 @@ app.get(['/','/index(.html)?$','/home$'], function (req, res) {
   ABOUT Routes
 */
 
-//Send index.html when the user access the web
+//Send about.html when the user access the web
 app.get('/about(.html)?$', function (req, res) {
   res.sendFile(path.join(DIST_DIR, "/views/about.html"));
 });
@@ -29,6 +29,11 @@ app.get('/about(.html)?$', function (req, res) {
 //Send contact.html when the user access the web
 app.get('/contact(.html)?$', function (req, res) {
   res.sendFile(path.join(DIST_DIR, "/views/contact.html"));
+});
+
+//Send support.html when the user access the web
+app.get('/support(.html)?$', function (req, res) {
+  res.sendFile(path.join(DIST_DIR, "/views/support.html"));
 });
 
 /*
