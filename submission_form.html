@@ -1,0 +1,37 @@
+<html>
+    <style>
+
+    </style>
+    <head>
+        <title>Submission Form</title>
+    </head>
+    <body>
+        <h1>Submission Form</h1>
+        <form action="/send_to_this_page.html" method="POST" id="studentForm">
+            <fieldset>
+                <legend>Personal Information:</legend>
+                First name:<br>
+                <input type="text" name="firstname"><br>
+                Last name:<br>
+                <input type="text" name="lastname"><br>
+                Year in school:<br>
+                <input type="text" name="school_year"><br>
+                Major:<br>
+                <input type="text" name="major"><br>
+                GPA:<br>
+                <input type="text" name="GPA"><br>
+            </fieldset>
+        </form>
+        <fieldset>
+            <legend>Experience</legend>
+            Prior research experience:<br>
+            <textarea name="student_experience" form="studentForm" placeholder="List releveant experience here..." rows="8" cols="50"></textarea><br><br>
+            Relevant Skills / "Familiar With":<br>
+            <textarea name="relevant_skills" form="studentForm" placeholder="List relevant skills here or important technologies/methods you are familiar with..." rows="8" cols="50"></textarea><br><br>
+            Past Jobs:<br>
+            <textarea name="past_jobs" form="studentForm" placeholder="List jobs/positions you have held in the past..." rows="8" cols="50"></textarea>
+        </fieldset><br><br>
+        
+        <input type="submit" value="Submit" form="studentForm">
+    </body>
+</html>
