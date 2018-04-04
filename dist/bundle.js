@@ -127,7 +127,7 @@ module.exports = __webpack_require__.p + "views/signup.html";
 /* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "views/dashboard.html";
+module.exports = __webpack_require__.p + "views/dashboardstudent.html";
 
 /***/ }),
 /* 8 */

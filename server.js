@@ -47,8 +47,8 @@ app.get('/signup(.html)?$', function (req, res) {
 });
 
 //Send dashboard.html when the user access the web
-app.get('/dashboard(.html)?$', function (req, res) {
-  res.sendFile(path.join(DIST_DIR, "/views/dashboard.html"));
+app.get('/dashboardstudent(.html)?$', function (req, res) {
+  res.sendFile(path.join(DIST_DIR, "/views/dashboardstudent.html"));
 });
 
 //Send search.html when the user access the web
