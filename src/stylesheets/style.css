@@ -1,3 +1,5 @@
-.hello {
-  color: red;
-}
+@import "signup.css";
+@import "search.css";
+@import "loginpage.css";
+@import "index.css";
+@import "dashboard.css";
