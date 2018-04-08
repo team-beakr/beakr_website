@@ -1,727 +1,898 @@
-.search-student{
-    width:100%;
-    min-width:1280px;
-    height:100vh;
-    min-height:961px;
-    position:relative;
-    overflow:hidden;
-    margin:0;
-    background:rgba(255,255,255,1.0)}
-a{
-    text-decoration:none}
-div{
-    -webkit-text-size-adjust:none}
-.search-student .rectangle{
-    background:rgba(52,52,52,1.0);
-    top:0;
-    height:56px;
-    width:1280px;
-    position:absolute;
-    margin:0;
-    left:0}
-.search-student .rectangle5{
-    background:rgba(126,210,33,1.0);
-    top:14px;
-    height:31px;
-    width:81px;
-    position:absolute;
-    margin:0;
-    left:1183px}
-.search-student .group2{
-    background:rgba(255,255,255,0.0);
-    top:95px;
-    height:774px;
-    width:230px;
-    position:absolute;
-    margin:0;
-    left:40px}
-.search-student .group2 .oval{
-    background:rgba(217,255,175,1.0);
-    top:344px;
-    height:76px;
-    width:74px;
-    position:absolute;
-    margin:0;
-    left:0;
-    border-radius:37px}
-.search-student .group2 .view1{
-    background:rgba(217,255,175,1.0);
-    top:216px;
-    height:79px;
-    width:76px;
-    position:absolute;
-    margin:0;
-    left:47px;
-    border-radius:38px}
-.search-student .group2 .view2{
-    background:rgba(217,255,175,1.0);
-    top:549px;
-    height:225px;
-    width:225px;
-    position:absolute;
-    margin:0;
-    left:5px;
-    border-radius:112px}
-.search-student .group2 .view3{
-    background:rgba(217,255,175,1.0);
-    top:317px;
-    height:42px;
-    width:41px;
-    position:absolute;
-    margin:0;
-    left:119px;
-    border-radius:20px}
-.search-student .group2 .view4{
-    background:rgba(217,255,175,1.0);
-    top:92px;
-    height:41px;
-    width:39px;
-    position:absolute;
-    margin:0;
-    left:79px;
-    border-radius:19px}
-.search-student .group2 .view5{
-    background:rgba(217,255,175,1.0);
-    top:151px;
-    height:30px;
-    width:29px;
-    position:absolute;
-    margin:0;
-    left:111px;
-    border-radius:14px}
-.search-student .group2 .view6{
-    background:rgba(217,255,175,1.0);
-    top:45px;
-    height:17px;
-    width:16px;
-    position:absolute;
-    margin:0;
-    left:123px;
-    border-radius:8px}
-.search-student .group2 .view7{
-    background:rgba(217,255,175,1.0);
-    top:0;
-    height:17px;
-    width:16px;
-    position:absolute;
-    margin:0;
-    left:94px;
-    border-radius:8px}
-.search-student .group2 .image1{
-    background:rgba(255,255,255,0.0);
-    top:413px;
-    height:115px;
-    width:117px;
-    position:absolute;
-    margin:0;
-    left:70px}
-.search-student .studentusername{
-    background:rgba(255,255,255,0.0);
-    top:22px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:1045px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(126,210,33,1.0);
-    text-align:right;
-    line-height:16.0px;
-    text-decoration:underline}
-.search-student .logout{
-    background:rgba(255,255,255,0.0);
-    top:22px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:1201px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(74,73,74,1.0);
-    text-align:center;
-    line-height:16.0px}
-.search-student .about-the-team{
-    background:rgba(255,255,255,0.0);
-    top:21px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:815px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(126,210,33,1.0);
-    text-align:center;
-    line-height:16.0px}
-.search-student .support{
-    background:rgba(255,255,255,0.0);
-    top:21px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:964px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(126,210,33,1.0);
-    text-align:center;
-    line-height:16.0px}
-.search-student .contact-us{
-    background:rgba(255,255,255,0.0);
-    top:21px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:690px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(126,210,33,1.0);
-    text-align:center;
-    line-height:16.0px}
-.search-student .rectangle12{
-    background:rgba(228,228,228,1.0);
-    top:55px;
-    height:56px;
-    width:1280px;
-    position:absolute;
-    margin:0;
-    left:0}
-.search-student .view8{
-    background:rgba(228,228,228,1.0);
-    top:55px;
-    height:56px;
-    width:142px;
-    position:absolute;
-    margin:0;
-    left:0}
-.search-student .view9{
-    background:rgba(228,228,228,1.0);
-    top:55px;
-    height:56px;
-    width:142px;
-    position:absolute;
-    margin:0;
-    left:284px}
-.search-student .view10{
-    background:rgba(228,228,228,1.0);
-    top:55px;
-    height:56px;
-    width:142px;
-    position:absolute;
-    margin:0;
-    left:426px}
-.search-student .view11{
-    background:rgba(185,185,185,1.0);
-    top:55px;
-    height:56px;
-    width:142px;
-    position:absolute;
-    margin:0;
-    left:142px}
-.search-student .search{
-    background:rgba(255,255,255,0.0);
-    top:75px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:190px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(74,73,74,1.0);
-    text-align:center;
-    line-height:16.0px}
-.search-student .requests{
-    background:rgba(255,255,255,0.0);
-    top:75px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:324px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(74,73,74,1.0);
-    text-align:center;
-    line-height:16.0px}
-.search-student .messages{
-    background:rgba(255,255,255,0.0);
-    top:75px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:464px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(74,73,74,1.0);
-    text-align:center;
-    line-height:16.0px}
-.search-student .dashboard{
-    background:rgba(255,255,255,0.0);
-    top:75px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:36px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(74,73,74,1.0);
-    text-align:center;
-    line-height:16.0px}
-.search-student .group{
-    background:rgba(255,255,255,0.0);
-    top:7px;
-    height:40px;
-    width:142px;
-    position:absolute;
-    margin:0;
-    left:13px}
-.search-student .group .beakr{
-    background:rgba(255,255,255,0.0);
-    top:8px;
-    height:31px;
-    width:110px;
-    position:absolute;
-    margin:0;
-    left:32px}
-.search-student .group .beaker-full{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:40px;
-    width:26px;
-    position:absolute;
-    margin:0;
-    left:0}
-.search-student .group .beaker-full .beaker{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:40px;
-    width:26px;
-    position:absolute;
-    margin:0;
-    left:0}
-.search-student .group .beaker-full .beaker .combined-shape{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:40px;
-    width:26px;
-    position:relative;
-    margin:0;
-    left:0}
-.search-student .group .beaker-full .image2{
-    background:rgba(255,255,255,0.0);
-    top:21px;
-    height:18px;
-    width:24px;
-    position:absolute;
-    margin:0;
-    left:1px}
-.search-student .group .beaker-full .oval4{
-    background:rgba(217,255,175,1.0);
-    top:29px;
-    height:8px;
-    width:8px;
-    position:absolute;
-    margin:0;
-    left:7px;
-    border-radius:4px}
-.search-student .group .beaker-full .view12{
-    background:rgba(217,255,175,1.0);
-    top:25px;
-    height:5px;
-    width:6px;
-    position:absolute;
-    margin:0;
-    left:12px;
-    border-radius:3px}
-.search-student .group .beaker-full .view13{
-    background:rgba(217,255,175,1.0);
-    top:31px;
-    height:3px;
-    width:3px;
-    position:absolute;
-    margin:0;
-    left:16px;
-    border-radius:1px}
-.search-student .footer{
-    background:rgba(255,255,255,0.0);
-    top:795px;
-    height:166px;
-    width:1280px;
-    position:absolute;
-    margin:0;
-    left:0}
-.search-student .footer .view14{
-    background:rgba(52,52,52,1.0);
-    top:0;
-    height:166px;
-    width:1280px;
-    position:absolute;
-    margin:0;
-    left:0}
-.search-student .footer .view15{
-    background:rgba(255,255,255,0.0);
-    top:48px;
-    height:34px;
-    width:117px;
-    position:absolute;
-    margin:0;
-    left:501px}
-.search-student .footer .view15 .image3{
-    background:rgba(255,255,255,0.0);
-    top:6px;
-    height:27px;
-    width:91px;
-    position:absolute;
-    margin:0;
-    left:26px}
-.search-student .footer .view15 .view16{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:34px;
-    width:22px;
-    position:absolute;
-    margin:0;
-    left:0}
-.search-student .footer .view15 .view16 .view17{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:34px;
-    width:22px;
-    position:absolute;
-    margin:0;
-    left:0}
-.search-student .footer .view15 .view16 .view17 .image4{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:34px;
-    width:22px;
-    position:relative;
-    margin:0;
-    left:0}
-.search-student .footer .view15 .view16 .image5{
-    background:rgba(255,255,255,0.0);
-    top:17px;
-    height:16px;
-    width:20px;
-    position:absolute;
-    margin:0;
-    left:1px}
-.search-student .footer .view15 .view16 .view18{
-    background:rgba(217,255,175,1.0);
-    top:24px;
-    height:7px;
-    width:6px;
-    position:absolute;
-    margin:0;
-    left:6px;
-    border-radius:3px}
-.search-student .footer .view15 .view16 .view19{
-    background:rgba(217,255,175,1.0);
-    top:20px;
-    height:5px;
-    width:5px;
-    position:absolute;
-    margin:0;
-    left:10px;
-    border-radius:2px}
-.search-student .footer .view15 .view16 .view20{
-    background:rgba(217,255,175,1.0);
-    top:25px;
-    height:3px;
-    width:3px;
-    position:absolute;
-    margin:0;
-    left:13px;
-    border-radius:1px}
-.search-student .footer .est2017{
-    background:rgba(255,255,255,0.0);
-    top:87px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:554px;
-    font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(216,255,171,1.0);
-    text-align:center;
-    line-height:17.0px}
-.search-student .footer .line4{
-    background:rgba(255,255,255,0.0);
-    top:19px;
-    height:116px;
-    width:3px;
-    position:absolute;
-    margin:0;
-    left:646px}
-.search-student .footer .contact-us-about-the{
-    background:rgba(255,255,255,0.0);
-    top:26px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:668px;
-    font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;
-    font-size:16.0px;
-    color:rgba(255,255,255,1.0);
-    text-align:left;
-    line-height:18.0px}
-.search-student .rectangle14{
-    background:rgba(255,255,255,0.0);
-    top:191px;
-    height:342px;
-    width:566px;
-    position:absolute;
-    margin:0;
-    left:358px}
-.search-student .image6{
-    background:rgba(255,255,255,0.0);
-    top:293px;
-    height:135px;
-    width:135px;
-    position:absolute;
-    margin:0;
-    left:949px}
-.search-student .view21{
-    background:rgba(255,255,255,0.0);
-    top:328px;
-    height:64px;
-    width:35px;
-    position:absolute;
-    margin:0;
-    left:148px}
-.search-student .view21 .line{
-    background:rgba(255,255,255,0.0);
-    top:29px;
-    height:35px;
-    width:35px;
-    position:absolute;
-    margin:0;
-    left:0}
-.search-student .view21 .image7{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:35px;
-    width:35px;
-    position:absolute;
-    margin:0;
-    left:0}
-.search-student .image8{
-    background:rgba(255,255,255,0.0);
-    top:328px;
-    height:64px;
-    width:35px;
-    position:absolute;
-    margin:0;
-    left:1099px}
-.search-student .we-thought-you-might{
-    background:rgba(255,255,255,0.0);
-    top:145px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:355px;
-    font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;
-    font-size:18.0px;
-    color:rgba(126,210,33,1.0);
-    text-align:left;
-    line-height:22.0px}
-.search-student .or-go-on-your-own-s{
-    background:rgba(255,255,255,0.0);
-    top:663px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:363px;
-    font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;
-    font-size:18.0px;
-    color:rgba(126,210,33,1.0);
-    text-align:left;
-    line-height:22.0px}
-.search-student .research-opportunity{
-    background:rgba(255,255,255,0.0);
-    top:218px;
-    height:auto;
-    width:491px;
-    position:absolute;
-    margin:0;
-    left:395px;
-    font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(0,0,0,1.0);
-    text-align:center;
-    line-height:17.0px}
-.search-student .expand{
-    background:rgba(255,255,255,0.0);
-    top:493px;
-    height:auto;
-    width:99px;
-    position:absolute;
-    margin:0;
-    left:776px;
-    font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(126,210,33,1.0);
-    text-align:right;
-    line-height:17.0px}
-.search-student .rectangle17{
-    background:rgba(216,216,216,1.0);
-    top:699px;
-    height:46px;
-    width:554px;
-    position:absolute;
-    margin:0;
-    left:364px;
-    border-radius:12px}
-.search-student .enter-keywords{
-    background:rgba(255,255,255,0.0);
-    top:715px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:377px;
-    font-family:'STHeitiSC-Light',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(155,154,155,1.0);
-    text-align:left;
-    line-height:14.0px}
-.search-student .rectangle3{
-    background:rgba(126,210,33,1.0);
-    top:564px;
-    height:57px;
-    width:208px;
-    position:absolute;
-    margin:0;
-    left:653px}
-.search-student .view22{
-    background:rgba(255,255,255,0.0);
-    top:564px;
-    height:57px;
-    width:208px;
-    position:absolute;
-    margin:0;
-    left:419px;
-    border-style:solid;
-    border-width:1px;
-    border-color:rgba(126,210,33,1.0)}
-.search-student .interested{
-    background:rgba(255,255,255,0.0);
-    top:581px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:709px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:20.0px;
-    color:rgba(255,255,255,1.0);
-    text-align:center;
-    line-height:24.0px}
-.search-student .not-this-time{
-    background:rgba(255,255,255,0.0);
-    top:582px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:471px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:18.0px;
-    color:rgba(126,210,33,1.0);
-    text-align:center;
-    line-height:22.0px}
-.search-student .a8-more{
-    background:rgba(255,255,255,0.0);
-    top:342px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:964px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:28.0px;
-    color:rgba(183,232,134,1.0);
-    text-align:center;
-    line-height:34.0px}
-.search-student .image9{
-    background:rgba(255,255,255,0.0);
-    top:293px;
-    height:135px;
-    width:135px;
-    position:absolute;
-    margin:0;
-    left:209px}
-.search-student .oval2{
-    background:rgba(255,255,255,0.0);
-    top:312px;
-    height:60px;
-    width:59px;
-    position:absolute;
-    margin:0;
-    left:247px}
-.search-student .line2{
-    background:rgba(255,255,255,0.0);
-    top:328px;
-    height:28px;
-    width:30px;
-    position:absolute;
-    margin:0;
-    left:262px}
-.search-student .applied{
-    background:rgba(255,255,255,0.0);
-    top:375px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:241px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:20.0px;
-    color:rgba(183,232,134,1.0);
-    text-align:center;
-    line-height:24.0px}
-.anima-animate-appear{
-    opacity:0;
-    display:block;
-    -webkit-animation:anima-reveal .3s ease-in-out 1 normal forwards;
-    -moz-animation:anima-reveal .3s ease-in 1 normal forwards;
-    -o-animation:anima-reveal .3s ease-in-out 1 normal forwards;
-    animation:anima-reveal .3s ease-in-out 1 normal forwards}
-.anima-animate-disappear{
-    opacity:1;
-    display:block;
-    -webkit-animation:anima-reveal .3s ease-in-out 1 reverse forwards;
-    -moz-animation:anima-reveal .3s ease-in 1 normal forwards;
-    -o-animation:anima-reveal .3s ease-in-out 1 reverse forwards;
-    animation:anima-reveal .3s ease-in-out 1 reverse forwards}
-.anima-animate-nodelay{
-    -webkit-animation-delay:0;
-    -moz-animation-delay:0;
-    -o-animation-delay:0;
-    animation-delay:0}
-@-webkit-keyframes anima-reveal{
-    0%{
-    opacity:0}100%{
-    opacity:1}}
-@-moz-keyframes anima-reveal{
-    0%{
-    opacity:0}100%{
-    opacity:1}}
-@-o-keyframes anima-reveal{
-    0%{
-    opacity:0}100%{
-    opacity:1}}
-@keyframes anima-reveal{
-    0%{
-    opacity:0}100%{
-    opacity:1}}
+.search-student {
+  width: 100%;
+  min-width: 1280px;
+  height: 100vh;
+  min-height: 961px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  background: rgba(255, 255, 255, 1.0)
+}
+
+a {
+  text-decoration: none
+}
+
+div {
+  -webkit-text-size-adjust: none
+}
+
+.search-student .rectangle {
+  background: rgba(52, 52, 52, 1.0);
+  top: 0;
+  height: 56px;
+  width: 1280px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.search-student .rectangle5 {
+  background: rgba(126, 210, 33, 1.0);
+  top: 14px;
+  height: 31px;
+  width: 81px;
+  position: absolute;
+  margin: 0;
+  left: 1183px
+}
+
+.search-student .group2 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 95px;
+  height: 774px;
+  width: 230px;
+  position: absolute;
+  margin: 0;
+  left: 40px
+}
+
+.search-student .group2 .oval {
+  background: rgba(217, 255, 175, 1.0);
+  top: 344px;
+  height: 76px;
+  width: 74px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-radius: 37px
+}
+
+.search-student .group2 .view1 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 216px;
+  height: 79px;
+  width: 76px;
+  position: absolute;
+  margin: 0;
+  left: 47px;
+  border-radius: 38px
+}
+
+.search-student .group2 .view2 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 549px;
+  height: 225px;
+  width: 225px;
+  position: absolute;
+  margin: 0;
+  left: 5px;
+  border-radius: 112px
+}
+
+.search-student .group2 .view3 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 317px;
+  height: 42px;
+  width: 41px;
+  position: absolute;
+  margin: 0;
+  left: 119px;
+  border-radius: 20px
+}
+
+.search-student .group2 .view4 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 92px;
+  height: 41px;
+  width: 39px;
+  position: absolute;
+  margin: 0;
+  left: 79px;
+  border-radius: 19px
+}
+
+.search-student .group2 .view5 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 151px;
+  height: 30px;
+  width: 29px;
+  position: absolute;
+  margin: 0;
+  left: 111px;
+  border-radius: 14px
+}
+
+.search-student .group2 .view6 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 45px;
+  height: 17px;
+  width: 16px;
+  position: absolute;
+  margin: 0;
+  left: 123px;
+  border-radius: 8px
+}
+
+.search-student .group2 .view7 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 0;
+  height: 17px;
+  width: 16px;
+  position: absolute;
+  margin: 0;
+  left: 94px;
+  border-radius: 8px
+}
+
+.search-student .group2 .image1 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 413px;
+  height: 115px;
+  width: 117px;
+  position: absolute;
+  margin: 0;
+  left: 70px
+}
+
+.search-student .studentusername {
+  background: rgba(255, 255, 255, 0.0);
+  top: 22px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 1045px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(126, 210, 33, 1.0);
+  text-align: right;
+  line-height: 16.0px;
+  text-decoration: underline
+}
+
+.search-student .logout {
+  background: rgba(255, 255, 255, 0.0);
+  top: 22px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 1201px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(74, 73, 74, 1.0);
+  text-align: center;
+  line-height: 16.0px
+}
+
+.search-student .about-the-team {
+  background: rgba(255, 255, 255, 0.0);
+  top: 21px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 815px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(126, 210, 33, 1.0);
+  text-align: center;
+  line-height: 16.0px
+}
+
+.search-student .support {
+  background: rgba(255, 255, 255, 0.0);
+  top: 21px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 964px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(126, 210, 33, 1.0);
+  text-align: center;
+  line-height: 16.0px
+}
+
+.search-student .contact-us {
+  background: rgba(255, 255, 255, 0.0);
+  top: 21px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 690px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(126, 210, 33, 1.0);
+  text-align: center;
+  line-height: 16.0px
+}
+
+.search-student .rectangle12 {
+  background: rgba(228, 228, 228, 1.0);
+  top: 55px;
+  height: 56px;
+  width: 1280px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.search-student .view8 {
+  background: rgba(228, 228, 228, 1.0);
+  top: 55px;
+  height: 56px;
+  width: 142px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.search-student .view9 {
+  background: rgba(228, 228, 228, 1.0);
+  top: 55px;
+  height: 56px;
+  width: 142px;
+  position: absolute;
+  margin: 0;
+  left: 284px
+}
+
+.search-student .view10 {
+  background: rgba(228, 228, 228, 1.0);
+  top: 55px;
+  height: 56px;
+  width: 142px;
+  position: absolute;
+  margin: 0;
+  left: 426px
+}
+
+.search-student .view11 {
+  background: rgba(185, 185, 185, 1.0);
+  top: 55px;
+  height: 56px;
+  width: 142px;
+  position: absolute;
+  margin: 0;
+  left: 142px
+}
+
+.search-student .search {
+  background: rgba(255, 255, 255, 0.0);
+  top: 75px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 190px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(74, 73, 74, 1.0);
+  text-align: center;
+  line-height: 16.0px
+}
+
+.search-student .requests {
+  background: rgba(255, 255, 255, 0.0);
+  top: 75px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 324px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(74, 73, 74, 1.0);
+  text-align: center;
+  line-height: 16.0px
+}
+
+.search-student .messages {
+  background: rgba(255, 255, 255, 0.0);
+  top: 75px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 464px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(74, 73, 74, 1.0);
+  text-align: center;
+  line-height: 16.0px
+}
+
+.search-student .dashboard {
+  background: rgba(255, 255, 255, 0.0);
+  top: 75px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(74, 73, 74, 1.0);
+  text-align: center;
+  line-height: 16.0px
+}
+
+.search-student .group {
+  background: rgba(255, 255, 255, 0.0);
+  top: 7px;
+  height: 40px;
+  width: 142px;
+  position: absolute;
+  margin: 0;
+  left: 13px
+}
+
+.search-student .group .beakr {
+  background: rgba(255, 255, 255, 0.0);
+  top: 8px;
+  height: 31px;
+  width: 110px;
+  position: absolute;
+  margin: 0;
+  left: 32px
+}
+
+.search-student .group .beaker-full {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 40px;
+  width: 26px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.search-student .group .beaker-full .beaker {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 40px;
+  width: 26px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.search-student .group .beaker-full .beaker .combined-shape {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 40px;
+  width: 26px;
+  position: relative;
+  margin: 0;
+  left: 0
+}
+
+.search-student .group .beaker-full .image2 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 21px;
+  height: 18px;
+  width: 24px;
+  position: absolute;
+  margin: 0;
+  left: 1px
+}
+
+.search-student .group .beaker-full .oval4 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 29px;
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  margin: 0;
+  left: 7px;
+  border-radius: 4px
+}
+
+.search-student .group .beaker-full .view12 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 25px;
+  height: 5px;
+  width: 6px;
+  position: absolute;
+  margin: 0;
+  left: 12px;
+  border-radius: 3px
+}
+
+.search-student .group .beaker-full .view13 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 31px;
+  height: 3px;
+  width: 3px;
+  position: absolute;
+  margin: 0;
+  left: 16px;
+  border-radius: 1px
+}
+
+.search-student .footer {
+  background: rgba(255, 255, 255, 0.0);
+  top: 795px;
+  height: 166px;
+  width: 1280px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.search-student .footer .view14 {
+  background: rgba(52, 52, 52, 1.0);
+  top: 0;
+  height: 166px;
+  width: 1280px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.search-student .footer .view15 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 48px;
+  height: 34px;
+  width: 117px;
+  position: absolute;
+  margin: 0;
+  left: 501px
+}
+
+.search-student .footer .view15 .image3 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 6px;
+  height: 27px;
+  width: 91px;
+  position: absolute;
+  margin: 0;
+  left: 26px
+}
+
+.search-student .footer .view15 .view16 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 34px;
+  width: 22px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.search-student .footer .view15 .view16 .view17 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 34px;
+  width: 22px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.search-student .footer .view15 .view16 .view17 .image4 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 34px;
+  width: 22px;
+  position: relative;
+  margin: 0;
+  left: 0
+}
+
+.search-student .footer .view15 .view16 .image5 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 17px;
+  height: 16px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 1px
+}
+
+.search-student .footer .view15 .view16 .view18 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 24px;
+  height: 7px;
+  width: 6px;
+  position: absolute;
+  margin: 0;
+  left: 6px;
+  border-radius: 3px
+}
+
+.search-student .footer .view15 .view16 .view19 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 20px;
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  margin: 0;
+  left: 10px;
+  border-radius: 2px
+}
+
+.search-student .footer .view15 .view16 .view20 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 25px;
+  height: 3px;
+  width: 3px;
+  position: absolute;
+  margin: 0;
+  left: 13px;
+  border-radius: 1px
+}
+
+.search-student .footer .est2017 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 87px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 554px;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(216, 255, 171, 1.0);
+  text-align: center;
+  line-height: 17.0px
+}
+
+.search-student .footer .line4 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 19px;
+  height: 116px;
+  width: 3px;
+  position: absolute;
+  margin: 0;
+  left: 646px
+}
+
+.search-student .footer .contact-us-about-the {
+  background: rgba(255, 255, 255, 0.0);
+  top: 26px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 668px;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+  font-size: 16.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: left;
+  line-height: 18.0px
+}
+
+.search-student .rectangle14 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 191px;
+  height: 342px;
+  width: 566px;
+  position: absolute;
+  margin: 0;
+  left: 358px
+}
+
+.search-student .image6 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 293px;
+  height: 135px;
+  width: 135px;
+  position: absolute;
+  margin: 0;
+  left: 949px
+}
+
+.search-student .view21 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 328px;
+  height: 64px;
+  width: 35px;
+  position: absolute;
+  margin: 0;
+  left: 148px
+}
+
+.search-student .view21 .line {
+  background: rgba(255, 255, 255, 0.0);
+  top: 29px;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.search-student .view21 .image7 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.search-student .image8 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 328px;
+  height: 64px;
+  width: 35px;
+  position: absolute;
+  margin: 0;
+  left: 1099px
+}
+
+.search-student .we-thought-you-might {
+  background: rgba(255, 255, 255, 0.0);
+  top: 145px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 355px;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+  font-size: 18.0px;
+  color: rgba(126, 210, 33, 1.0);
+  text-align: left;
+  line-height: 22.0px
+}
+
+.search-student .or-go-on-your-own-s {
+  background: rgba(255, 255, 255, 0.0);
+  top: 663px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 363px;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+  font-size: 18.0px;
+  color: rgba(126, 210, 33, 1.0);
+  text-align: left;
+  line-height: 22.0px
+}
+
+.search-student .research-opportunity {
+  background: rgba(255, 255, 255, 0.0);
+  top: 218px;
+  height: auto;
+  width: 491px;
+  position: absolute;
+  margin: 0;
+  left: 395px;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(0, 0, 0, 1.0);
+  text-align: center;
+  line-height: 17.0px
+}
+
+.search-student .expand {
+  background: rgba(255, 255, 255, 0.0);
+  top: 493px;
+  height: auto;
+  width: 99px;
+  position: absolute;
+  margin: 0;
+  left: 776px;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(126, 210, 33, 1.0);
+  text-align: right;
+  line-height: 17.0px
+}
+
+.search-student .rectangle17 {
+  background: rgba(216, 216, 216, 1.0);
+  top: 699px;
+  height: 46px;
+  width: 554px;
+  position: absolute;
+  margin: 0;
+  left: 364px;
+  border-radius: 12px
+}
+
+.search-student .enter-keywords {
+  background: rgba(255, 255, 255, 0.0);
+  top: 715px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 377px;
+  font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(155, 154, 155, 1.0);
+  text-align: left;
+  line-height: 14.0px
+}
+
+.search-student .rectangle3 {
+  background: rgba(126, 210, 33, 1.0);
+  top: 564px;
+  height: 57px;
+  width: 208px;
+  position: absolute;
+  margin: 0;
+  left: 653px
+}
+
+.search-student .view22 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 564px;
+  height: 57px;
+  width: 208px;
+  position: absolute;
+  margin: 0;
+  left: 419px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(126, 210, 33, 1.0)
+}
+
+.search-student .interested {
+  background: rgba(255, 255, 255, 0.0);
+  top: 581px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 709px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 20.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+  line-height: 24.0px
+}
+
+.search-student .not-this-time {
+  background: rgba(255, 255, 255, 0.0);
+  top: 582px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 471px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 18.0px;
+  color: rgba(126, 210, 33, 1.0);
+  text-align: center;
+  line-height: 22.0px
+}
+
+.search-student .a8-more {
+  background: rgba(255, 255, 255, 0.0);
+  top: 342px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 964px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 28.0px;
+  color: rgba(183, 232, 134, 1.0);
+  text-align: center;
+  line-height: 34.0px
+}
+
+.search-student .image9 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 293px;
+  height: 135px;
+  width: 135px;
+  position: absolute;
+  margin: 0;
+  left: 209px
+}
+
+.search-student .oval2 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 312px;
+  height: 60px;
+  width: 59px;
+  position: absolute;
+  margin: 0;
+  left: 247px
+}
+
+.search-student .line2 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 328px;
+  height: 28px;
+  width: 30px;
+  position: absolute;
+  margin: 0;
+  left: 262px
+}
+
+.search-student .applied {
+  background: rgba(255, 255, 255, 0.0);
+  top: 375px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 241px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 20.0px;
+  color: rgba(183, 232, 134, 1.0);
+  text-align: center;
+  line-height: 24.0px
+}
+
+.anima-animate-appear {
+  opacity: 0;
+  display: block;
+  -webkit-animation: anima-reveal .3s ease-in-out 1 normal forwards;
+  -moz-animation: anima-reveal .3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal .3s ease-in-out 1 normal forwards;
+  animation: anima-reveal .3s ease-in-out 1 normal forwards
+}
+
+.anima-animate-disappear {
+  opacity: 1;
+  display: block;
+  -webkit-animation: anima-reveal .3s ease-in-out 1 reverse forwards;
+  -moz-animation: anima-reveal .3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal .3s ease-in-out 1 reverse forwards;
+  animation: anima-reveal .3s ease-in-out 1 reverse forwards
+}
+
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0
+}
+
+@-webkit-keyframes anima-reveal {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@-moz-keyframes anima-reveal {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@-o-keyframes anima-reveal {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes anima-reveal {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}

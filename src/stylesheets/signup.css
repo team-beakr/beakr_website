@@ -1,651 +1,806 @@
-.sign-up-page{
-    width:100%;
-    min-width:1280px;
-    height:100vh;
-    min-height:961px;
-    position:relative;
-    overflow:hidden;
-    margin:0;
-    background:rgba(255,255,255,1.0)}
-a{
-    text-decoration:none}
-div{
-    -webkit-text-size-adjust:none}
-.sign-up-page .rectangle{
-    background:rgba(52,52,52,1.0);
-    top:0;
-    height:56px;
-    width:1280px;
-    position:absolute;
-    margin:0;
-    left:0}
-.sign-up-page .rectangle5{
-    background:rgba(126,210,33,1.0);
-    top:14px;
-    height:31px;
-    width:81px;
-    position:absolute;
-    margin:0;
-    left:1183px}
-.sign-up-page .rectangle9{
-    background:rgba(255,255,255,0.0);
-    top:119px;
-    height:602px;
-    width:582px;
-    position:absolute;
-    margin:0;
-    left:349px}
-.sign-up-page .laboratory-more-lik{
-    background:rgba(255,255,255,0.0);
-    top:210px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:390px;
-    font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(74,73,74,1.0);
-    text-align:center;
-    line-height:17.0px}
-.sign-up-page .rectangle3{
-    background:rgba(126,210,33,1.0);
-    top:549px;
-    height:57px;
-    width:242px;
-    position:absolute;
-    margin:0;
-    left:519px}
-.sign-up-page .view1{
-    background:rgba(255,255,255,0.0);
-    top:623px;
-    height:57px;
-    width:242px;
-    position:absolute;
-    margin:0;
-    left:519px;
-    border-style:solid;
-    border-width:1px;
-    border-color:rgba(126,210,33,1.0)}
-.sign-up-page .login{
-    background:rgba(255,255,255,0.0);
-    top:22px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:1107px;
-    font-family:'Arial',Helvetica,Arial,serif;
-    font-weight:400;
-    font-style:normal;
-    font-size:14.0px;
-    color:rgba(126,210,33,1.0);
-    text-align:center;
-    line-height:16.0px}
-.sign-up-page .group{
-    background:rgba(255,255,255,0.0);
-    top:7px;
-    height:40px;
-    width:142px;
-    position:absolute;
-    margin:0;
-    left:13px}
-.sign-up-page .group .beakr{
-    background:rgba(255,255,255,0.0);
-    top:8px;
-    height:31px;
-    width:110px;
-    position:absolute;
-    margin:0;
-    left:32px}
-.sign-up-page .group .beaker-full{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:40px;
-    width:26px;
-    position:absolute;
-    margin:0;
-    left:0}
-.sign-up-page .group .beaker-full .beaker{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:40px;
-    width:26px;
-    position:absolute;
-    margin:0;
-    left:0}
-.sign-up-page .group .beaker-full .beaker .combined-shape{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:40px;
-    width:26px;
-    position:relative;
-    margin:0;
-    left:0}
-.sign-up-page .group .beaker-full .image1{
-    background:rgba(255,255,255,0.0);
-    top:21px;
-    height:18px;
-    width:24px;
-    position:absolute;
-    margin:0;
-    left:1px}
-.sign-up-page .group .beaker-full .oval4{
-    background:rgba(217,255,175,1.0);
-    top:29px;
-    height:8px;
-    width:8px;
-    position:absolute;
-    margin:0;
-    left:7px;
-    border-radius:4px}
-.sign-up-page .group .beaker-full .view2{
-    background:rgba(217,255,175,1.0);
-    top:25px;
-    height:5px;
-    width:6px;
-    position:absolute;
-    margin:0;
-    left:12px;
-    border-radius:3px}
-.sign-up-page .group .beaker-full .view3{
-    background:rgba(217,255,175,1.0);
-    top:31px;
-    height:3px;
-    width:3px;
-    position:absolute;
-    margin:0;
-    left:16px;
-    border-radius:1px}
-.sign-up-page .view4{
-    background:rgba(255,255,255,0.0);
-    top:129px;
-    height:59px;
-    width:205px;
-    position:absolute;
-    margin:0;
-    left:538px}
-.sign-up-page .view4 .image2{
-    background:rgba(255,255,255,0.0);
-    top:11px;
-    height:46px;
-    width:159px;
-    position:absolute;
-    margin:0;
-    left:46px}
-.sign-up-page .view4 .view5{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:59px;
-    width:38px;
-    position:absolute;
-    margin:0;
-    left:0}
-.sign-up-page .view4 .view5 .view6{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:59px;
-    width:38px;
-    position:absolute;
-    margin:0;
-    left:0}
-.sign-up-page .view4 .view5 .view6 .image3{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:59px;
-    width:38px;
-    position:relative;
-    margin:0;
-    left:0}
-.sign-up-page .view4 .view5 .image4{
-    background:rgba(255,255,255,0.0);
-    top:30px;
-    height:27px;
-    width:34px;
-    position:absolute;
-    margin:0;
-    left:2px}
-.sign-up-page .view4 .view5 .view7{
-    background:rgba(217,255,175,1.0);
-    top:42px;
-    height:12px;
-    width:11px;
-    position:absolute;
-    margin:0;
-    left:10px;
-    border-radius:5px}
-.sign-up-page .view4 .view5 .view8{
-    background:rgba(217,255,175,1.0);
-    top:36px;
-    height:7px;
-    width:8px;
-    position:absolute;
-    margin:0;
-    left:18px;
-    border-radius:4px}
-.sign-up-page .view4 .view5 .view9{
-    background:rgba(217,255,175,1.0);
-    top:45px;
-    height:4px;
-    width:5px;
-    position:absolute;
-    margin:0;
-    left:23px;
-    border-radius:2px}
-.sign-up-page .sign-up{
-    background:rgba(255,255,255,0.0);
-    top:22px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:1198px;
-    font-family:'Arial',Helvetica,Arial,serif;
-    font-weight:400;
-    font-style:normal;
-    font-size:14.0px;
-    color:rgba(74,73,74,1.0);
-    text-align:center;
-    line-height:16.0px}
-.sign-up-page .view10{
-    background:rgba(255,255,255,0.0);
-    top:15px;
-    height:31px;
-    width:81px;
-    position:absolute;
-    margin:0;
-    left:1085px;
-    border-style:solid;
-    border-width:2px;
-    border-color:rgba(126,210,33,1.0)}
-.sign-up-page .about-the-team{
-    background:rgba(255,255,255,0.0);
-    top:21px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:816px;
-    font-family:'Arial',Helvetica,Arial,serif;
-    font-weight:400;
-    font-style:normal;
-    font-size:14.0px;
-    color:rgba(126,210,33,1.0);
-    text-align:center;
-    line-height:16.0px}
-.sign-up-page .support{
-    background:rgba(255,255,255,0.0);
-    top:21px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:964px;
-    font-family:'Arial',Helvetica,Arial,serif;
-    font-weight:400;
-    font-style:normal;
-    font-size:14.0px;
-    color:rgba(126,210,33,1.0);
-    text-align:center;
-    line-height:16.0px}
-.sign-up-page .contact-us{
-    background:rgba(255,255,255,0.0);
-    top:21px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:690px;
-    font-family:'Arial',Helvetica,Arial,serif;
-    font-weight:400;
-    font-style:normal;
-    font-size:14.0px;
-    color:rgba(126,210,33,1.0);
-    text-align:center;
-    line-height:16.0px}
-.sign-up-page .rectangle7{
-    background:rgba(215,215,215,1.0);
-    top:398px;
-    height:49px;
-    width:429px;
-    position:absolute;
-    margin:0;
-    left:420px;
-    border-radius:12px}
-.sign-up-page .view11{
-    background:rgba(215,215,215,1.0);
-    top:260px;
-    height:49px;
-    width:429px;
-    position:absolute;
-    margin:0;
-    left:420px;
-    border-radius:12px}
-.sign-up-page .school-email{
-    background:rgba(255,255,255,0.0);
-    top:277px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:440px;
-    font-family:'STHeitiSC-Light',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(154,154,155,1.0);
-    text-align:left;
-    line-height:14.0px}
-.sign-up-page .view12{
-    background:rgba(215,215,215,1.0);
-    top:329px;
-    height:49px;
-    width:429px;
-    position:absolute;
-    margin:0;
-    left:420px;
-    border-radius:12px}
-.sign-up-page .username{
-    background:rgba(255,255,255,0.0);
-    top:346px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:440px;
-    font-family:'STHeitiSC-Light',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(154,154,155,1.0);
-    text-align:left;
-    line-height:14.0px}
-.sign-up-page .password{
-    background:rgba(255,255,255,0.0);
-    top:415px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:440px;
-    font-family:'STHeitiSC-Light',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(154,154,155,1.0);
-    text-align:left;
-    line-height:14.0px}
-.sign-up-page .view13{
-    background:rgba(215,215,215,1.0);
-    top:467px;
-    height:49px;
-    width:429px;
-    position:absolute;
-    margin:0;
-    left:420px;
-    border-radius:12px}
-.sign-up-page .confirm-password{
-    background:rgba(255,255,255,0.0);
-    top:484px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:440px;
-    font-family:'STHeitiSC-Light',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(154,154,155,1.0);
-    text-align:left;
-    line-height:14.0px}
-.sign-up-page .create-account{
-    background:rgba(255,255,255,0.0);
-    top:564px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:555px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:24.0px;
-    color:rgba(255,255,255,1.0);
-    text-align:center;
-    line-height:29.0px}
-.sign-up-page .i-am-a-professor{
-    background:rgba(255,255,255,0.0);
-    top:638px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:567px;
-    font-family:'HelveticaNeue',Helvetica,Arial,serif;
-    font-size:20.0px;
-    color:rgba(126,210,33,1.0);
-    text-align:center;
-    line-height:24.0px}
-.sign-up-page .oval{
-    background:rgba(217,255,175,1.0);
-    top:463px;
-    height:76px;
-    width:74px;
-    position:absolute;
-    margin:0;
-    left:53px;
-    border-radius:37px}
-.sign-up-page .view14{
-    background:rgba(217,255,175,1.0);
-    top:335px;
-    height:79px;
-    width:76px;
-    position:absolute;
-    margin:0;
-    left:100px;
-    border-radius:38px}
-.sign-up-page .view15{
-    background:rgba(217,255,175,1.0);
-    top:668px;
-    height:225px;
-    width:225px;
-    position:absolute;
-    margin:0;
-    left:58px;
-    border-radius:112px}
-.sign-up-page .view16{
-    background:rgba(217,255,175,1.0);
-    top:436px;
-    height:42px;
-    width:41px;
-    position:absolute;
-    margin:0;
-    left:172px;
-    border-radius:20px}
-.sign-up-page .view17{
-    background:rgba(217,255,175,1.0);
-    top:211px;
-    height:41px;
-    width:39px;
-    position:absolute;
-    margin:0;
-    left:132px;
-    border-radius:19px}
-.sign-up-page .view18{
-    background:rgba(217,255,175,1.0);
-    top:270px;
-    height:30px;
-    width:29px;
-    position:absolute;
-    margin:0;
-    left:164px;
-    border-radius:14px}
-.sign-up-page .view19{
-    background:rgba(217,255,175,1.0);
-    top:164px;
-    height:17px;
-    width:16px;
-    position:absolute;
-    margin:0;
-    left:176px;
-    border-radius:8px}
-.sign-up-page .view20{
-    background:rgba(217,255,175,1.0);
-    top:119px;
-    height:17px;
-    width:16px;
-    position:absolute;
-    margin:0;
-    left:147px;
-    border-radius:8px}
-.sign-up-page .image5{
-    background:rgba(255,255,255,0.0);
-    top:532px;
-    height:115px;
-    width:117px;
-    position:absolute;
-    margin:0;
-    left:123px}
-.sign-up-page .view21{
-    background:rgba(52,52,52,1.0);
-    top:795px;
-    height:166px;
-    width:1280px;
-    position:absolute;
-    margin:0;
-    left:0}
-.sign-up-page .view22{
-    background:rgba(255,255,255,0.0);
-    top:843px;
-    height:34px;
-    width:117px;
-    position:absolute;
-    margin:0;
-    left:501px}
-.sign-up-page .view22 .image6{
-    background:rgba(255,255,255,0.0);
-    top:6px;
-    height:27px;
-    width:91px;
-    position:absolute;
-    margin:0;
-    left:26px}
-.sign-up-page .view22 .view23{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:34px;
-    width:22px;
-    position:absolute;
-    margin:0;
-    left:0}
-.sign-up-page .view22 .view23 .view24{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:34px;
-    width:22px;
-    position:absolute;
-    margin:0;
-    left:0}
-.sign-up-page .view22 .view23 .view24 .image7{
-    background:rgba(255,255,255,0.0);
-    top:0;
-    height:34px;
-    width:22px;
-    position:relative;
-    margin:0;
-    left:0}
-.sign-up-page .view22 .view23 .image8{
-    background:rgba(255,255,255,0.0);
-    top:17px;
-    height:16px;
-    width:20px;
-    position:absolute;
-    margin:0;
-    left:1px}
-.sign-up-page .view22 .view23 .view25{
-    background:rgba(217,255,175,1.0);
-    top:24px;
-    height:7px;
-    width:6px;
-    position:absolute;
-    margin:0;
-    left:6px;
-    border-radius:3px}
-.sign-up-page .view22 .view23 .view26{
-    background:rgba(217,255,175,1.0);
-    top:20px;
-    height:5px;
-    width:5px;
-    position:absolute;
-    margin:0;
-    left:10px;
-    border-radius:2px}
-.sign-up-page .view22 .view23 .view27{
-    background:rgba(217,255,175,1.0);
-    top:25px;
-    height:3px;
-    width:3px;
-    position:absolute;
-    margin:0;
-    left:13px;
-    border-radius:1px}
-.sign-up-page .est2017{
-    background:rgba(255,255,255,0.0);
-    top:882px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:554px;
-    font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;
-    font-size:14.0px;
-    color:rgba(216,255,171,1.0);
-    text-align:center;
-    line-height:17.0px}
-.sign-up-page .line4{
-    background:rgba(255,255,255,0.0);
-    top:814px;
-    height:116px;
-    width:3px;
-    position:absolute;
-    margin:0;
-    left:646px}
-.sign-up-page .contact-us-about-the{
-    background:rgba(255,255,255,0.0);
-    top:821px;
-    height:auto;
-    width:auto;
-    position:absolute;
-    margin:0;
-    left:668px;
-    font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;
-    font-size:16.0px;
-    color:rgba(255,255,255,1.0);
-    text-align:left;
-    line-height:18.0px}
-.anima-animate-appear{
-    opacity:0;
-    display:block;
-    -webkit-animation:anima-reveal .3s ease-in-out 1 normal forwards;
-    -moz-animation:anima-reveal .3s ease-in 1 normal forwards;
-    -o-animation:anima-reveal .3s ease-in-out 1 normal forwards;
-    animation:anima-reveal .3s ease-in-out 1 normal forwards}
-.anima-animate-disappear{
-    opacity:1;
-    display:block;
-    -webkit-animation:anima-reveal .3s ease-in-out 1 reverse forwards;
-    -moz-animation:anima-reveal .3s ease-in 1 normal forwards;
-    -o-animation:anima-reveal .3s ease-in-out 1 reverse forwards;
-    animation:anima-reveal .3s ease-in-out 1 reverse forwards}
-.anima-animate-nodelay{
-    -webkit-animation-delay:0;
-    -moz-animation-delay:0;
-    -o-animation-delay:0;
-    animation-delay:0}
-@-webkit-keyframes anima-reveal{
-    0%{
-    opacity:0}100%{
-    opacity:1}}
-@-moz-keyframes anima-reveal{
-    0%{
-    opacity:0}100%{
-    opacity:1}}
-@-o-keyframes anima-reveal{
-    0%{
-    opacity:0}100%{
-    opacity:1}}
-@keyframes anima-reveal{
-    0%{
-    opacity:0}100%{
-    opacity:1}}
+.sign-up-page {
+  width: 100%;
+  min-width: 1280px;
+  height: 100vh;
+  min-height: 961px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  background: rgba(255, 255, 255, 1.0)
+}
+
+a {
+  text-decoration: none
+}
+
+div {
+  -webkit-text-size-adjust: none
+}
+
+.sign-up-page .rectangle {
+  background: rgba(52, 52, 52, 1.0);
+  top: 0;
+  height: 56px;
+  width: 1280px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.sign-up-page .rectangle5 {
+  background: rgba(126, 210, 33, 1.0);
+  top: 14px;
+  height: 31px;
+  width: 81px;
+  position: absolute;
+  margin: 0;
+  left: 1183px
+}
+
+.sign-up-page .rectangle9 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 119px;
+  height: 602px;
+  width: 582px;
+  position: absolute;
+  margin: 0;
+  left: 349px
+}
+
+.sign-up-page .laboratory-more-lik {
+  background: rgba(255, 255, 255, 0.0);
+  top: 210px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 390px;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(74, 73, 74, 1.0);
+  text-align: center;
+  line-height: 17.0px
+}
+
+.sign-up-page .rectangle3 {
+  background: rgba(126, 210, 33, 1.0);
+  top: 549px;
+  height: 57px;
+  width: 242px;
+  position: absolute;
+  margin: 0;
+  left: 519px
+}
+
+.sign-up-page .view1 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 623px;
+  height: 57px;
+  width: 242px;
+  position: absolute;
+  margin: 0;
+  left: 519px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(126, 210, 33, 1.0)
+}
+
+.sign-up-page .login {
+  background: rgba(255, 255, 255, 0.0);
+  top: 22px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 1107px;
+  font-family: 'Arial', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(126, 210, 33, 1.0);
+  text-align: center;
+  line-height: 16.0px
+}
+
+.sign-up-page .group {
+  background: rgba(255, 255, 255, 0.0);
+  top: 7px;
+  height: 40px;
+  width: 142px;
+  position: absolute;
+  margin: 0;
+  left: 13px
+}
+
+.sign-up-page .group .beakr {
+  background: rgba(255, 255, 255, 0.0);
+  top: 8px;
+  height: 31px;
+  width: 110px;
+  position: absolute;
+  margin: 0;
+  left: 32px
+}
+
+.sign-up-page .group .beaker-full {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 40px;
+  width: 26px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.sign-up-page .group .beaker-full .beaker {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 40px;
+  width: 26px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.sign-up-page .group .beaker-full .beaker .combined-shape {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 40px;
+  width: 26px;
+  position: relative;
+  margin: 0;
+  left: 0
+}
+
+.sign-up-page .group .beaker-full .image1 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 21px;
+  height: 18px;
+  width: 24px;
+  position: absolute;
+  margin: 0;
+  left: 1px
+}
+
+.sign-up-page .group .beaker-full .oval4 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 29px;
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  margin: 0;
+  left: 7px;
+  border-radius: 4px
+}
+
+.sign-up-page .group .beaker-full .view2 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 25px;
+  height: 5px;
+  width: 6px;
+  position: absolute;
+  margin: 0;
+  left: 12px;
+  border-radius: 3px
+}
+
+.sign-up-page .group .beaker-full .view3 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 31px;
+  height: 3px;
+  width: 3px;
+  position: absolute;
+  margin: 0;
+  left: 16px;
+  border-radius: 1px
+}
+
+.sign-up-page .view4 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 129px;
+  height: 59px;
+  width: 205px;
+  position: absolute;
+  margin: 0;
+  left: 538px
+}
+
+.sign-up-page .view4 .image2 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 11px;
+  height: 46px;
+  width: 159px;
+  position: absolute;
+  margin: 0;
+  left: 46px
+}
+
+.sign-up-page .view4 .view5 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 59px;
+  width: 38px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.sign-up-page .view4 .view5 .view6 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 59px;
+  width: 38px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.sign-up-page .view4 .view5 .view6 .image3 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 59px;
+  width: 38px;
+  position: relative;
+  margin: 0;
+  left: 0
+}
+
+.sign-up-page .view4 .view5 .image4 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 30px;
+  height: 27px;
+  width: 34px;
+  position: absolute;
+  margin: 0;
+  left: 2px
+}
+
+.sign-up-page .view4 .view5 .view7 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 42px;
+  height: 12px;
+  width: 11px;
+  position: absolute;
+  margin: 0;
+  left: 10px;
+  border-radius: 5px
+}
+
+.sign-up-page .view4 .view5 .view8 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 36px;
+  height: 7px;
+  width: 8px;
+  position: absolute;
+  margin: 0;
+  left: 18px;
+  border-radius: 4px
+}
+
+.sign-up-page .view4 .view5 .view9 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 45px;
+  height: 4px;
+  width: 5px;
+  position: absolute;
+  margin: 0;
+  left: 23px;
+  border-radius: 2px
+}
+
+.sign-up-page .sign-up {
+  background: rgba(255, 255, 255, 0.0);
+  top: 22px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 1198px;
+  font-family: 'Arial', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(74, 73, 74, 1.0);
+  text-align: center;
+  line-height: 16.0px
+}
+
+.sign-up-page .view10 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 15px;
+  height: 31px;
+  width: 81px;
+  position: absolute;
+  margin: 0;
+  left: 1085px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(126, 210, 33, 1.0)
+}
+
+.sign-up-page .about-the-team {
+  background: rgba(255, 255, 255, 0.0);
+  top: 21px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 816px;
+  font-family: 'Arial', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(126, 210, 33, 1.0);
+  text-align: center;
+  line-height: 16.0px
+}
+
+.sign-up-page .support {
+  background: rgba(255, 255, 255, 0.0);
+  top: 21px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 964px;
+  font-family: 'Arial', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(126, 210, 33, 1.0);
+  text-align: center;
+  line-height: 16.0px
+}
+
+.sign-up-page .contact-us {
+  background: rgba(255, 255, 255, 0.0);
+  top: 21px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 690px;
+  font-family: 'Arial', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(126, 210, 33, 1.0);
+  text-align: center;
+  line-height: 16.0px
+}
+
+.sign-up-page .rectangle7 {
+  background: rgba(215, 215, 215, 1.0);
+  top: 398px;
+  height: 49px;
+  width: 429px;
+  position: absolute;
+  margin: 0;
+  left: 420px;
+  border-radius: 12px
+}
+
+.sign-up-page .view11 {
+  background: rgba(215, 215, 215, 1.0);
+  top: 260px;
+  height: 49px;
+  width: 429px;
+  position: absolute;
+  margin: 0;
+  left: 420px;
+  border-radius: 12px
+}
+
+.sign-up-page .school-email {
+  background: rgba(255, 255, 255, 0.0);
+  top: 277px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 440px;
+  font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(154, 154, 155, 1.0);
+  text-align: left;
+  line-height: 14.0px
+}
+
+.sign-up-page .view12 {
+  background: rgba(215, 215, 215, 1.0);
+  top: 329px;
+  height: 49px;
+  width: 429px;
+  position: absolute;
+  margin: 0;
+  left: 420px;
+  border-radius: 12px
+}
+
+.sign-up-page .username {
+  background: rgba(255, 255, 255, 0.0);
+  top: 346px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 440px;
+  font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(154, 154, 155, 1.0);
+  text-align: left;
+  line-height: 14.0px
+}
+
+.sign-up-page .password {
+  background: rgba(255, 255, 255, 0.0);
+  top: 415px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 440px;
+  font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(154, 154, 155, 1.0);
+  text-align: left;
+  line-height: 14.0px
+}
+
+.sign-up-page .view13 {
+  background: rgba(215, 215, 215, 1.0);
+  top: 467px;
+  height: 49px;
+  width: 429px;
+  position: absolute;
+  margin: 0;
+  left: 420px;
+  border-radius: 12px
+}
+
+.sign-up-page .confirm-password {
+  background: rgba(255, 255, 255, 0.0);
+  top: 484px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 440px;
+  font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(154, 154, 155, 1.0);
+  text-align: left;
+  line-height: 14.0px
+}
+
+.sign-up-page .create-account {
+  background: rgba(255, 255, 255, 0.0);
+  top: 564px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 555px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 24.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+  line-height: 29.0px
+}
+
+.sign-up-page .i-am-a-professor {
+  background: rgba(255, 255, 255, 0.0);
+  top: 638px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 567px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 20.0px;
+  color: rgba(126, 210, 33, 1.0);
+  text-align: center;
+  line-height: 24.0px
+}
+
+.sign-up-page .oval {
+  background: rgba(217, 255, 175, 1.0);
+  top: 463px;
+  height: 76px;
+  width: 74px;
+  position: absolute;
+  margin: 0;
+  left: 53px;
+  border-radius: 37px
+}
+
+.sign-up-page .view14 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 335px;
+  height: 79px;
+  width: 76px;
+  position: absolute;
+  margin: 0;
+  left: 100px;
+  border-radius: 38px
+}
+
+.sign-up-page .view15 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 668px;
+  height: 225px;
+  width: 225px;
+  position: absolute;
+  margin: 0;
+  left: 58px;
+  border-radius: 112px
+}
+
+.sign-up-page .view16 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 436px;
+  height: 42px;
+  width: 41px;
+  position: absolute;
+  margin: 0;
+  left: 172px;
+  border-radius: 20px
+}
+
+.sign-up-page .view17 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 211px;
+  height: 41px;
+  width: 39px;
+  position: absolute;
+  margin: 0;
+  left: 132px;
+  border-radius: 19px
+}
+
+.sign-up-page .view18 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 270px;
+  height: 30px;
+  width: 29px;
+  position: absolute;
+  margin: 0;
+  left: 164px;
+  border-radius: 14px
+}
+
+.sign-up-page .view19 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 164px;
+  height: 17px;
+  width: 16px;
+  position: absolute;
+  margin: 0;
+  left: 176px;
+  border-radius: 8px
+}
+
+.sign-up-page .view20 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 119px;
+  height: 17px;
+  width: 16px;
+  position: absolute;
+  margin: 0;
+  left: 147px;
+  border-radius: 8px
+}
+
+.sign-up-page .image5 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 532px;
+  height: 115px;
+  width: 117px;
+  position: absolute;
+  margin: 0;
+  left: 123px
+}
+
+.sign-up-page .view21 {
+  background: rgba(52, 52, 52, 1.0);
+  top: 795px;
+  height: 166px;
+  width: 1280px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.sign-up-page .view22 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 843px;
+  height: 34px;
+  width: 117px;
+  position: absolute;
+  margin: 0;
+  left: 501px
+}
+
+.sign-up-page .view22 .image6 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 6px;
+  height: 27px;
+  width: 91px;
+  position: absolute;
+  margin: 0;
+  left: 26px
+}
+
+.sign-up-page .view22 .view23 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 34px;
+  width: 22px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.sign-up-page .view22 .view23 .view24 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 34px;
+  width: 22px;
+  position: absolute;
+  margin: 0;
+  left: 0
+}
+
+.sign-up-page .view22 .view23 .view24 .image7 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: 34px;
+  width: 22px;
+  position: relative;
+  margin: 0;
+  left: 0
+}
+
+.sign-up-page .view22 .view23 .image8 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 17px;
+  height: 16px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 1px
+}
+
+.sign-up-page .view22 .view23 .view25 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 24px;
+  height: 7px;
+  width: 6px;
+  position: absolute;
+  margin: 0;
+  left: 6px;
+  border-radius: 3px
+}
+
+.sign-up-page .view22 .view23 .view26 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 20px;
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  margin: 0;
+  left: 10px;
+  border-radius: 2px
+}
+
+.sign-up-page .view22 .view23 .view27 {
+  background: rgba(217, 255, 175, 1.0);
+  top: 25px;
+  height: 3px;
+  width: 3px;
+  position: absolute;
+  margin: 0;
+  left: 13px;
+  border-radius: 1px
+}
+
+.sign-up-page .est2017 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 882px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 554px;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(216, 255, 171, 1.0);
+  text-align: center;
+  line-height: 17.0px
+}
+
+.sign-up-page .line4 {
+  background: rgba(255, 255, 255, 0.0);
+  top: 814px;
+  height: 116px;
+  width: 3px;
+  position: absolute;
+  margin: 0;
+  left: 646px
+}
+
+.sign-up-page .contact-us-about-the {
+  background: rgba(255, 255, 255, 0.0);
+  top: 821px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 668px;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+  font-size: 16.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: left;
+  line-height: 18.0px
+}
+
+.anima-animate-appear {
+  opacity: 0;
+  display: block;
+  -webkit-animation: anima-reveal .3s ease-in-out 1 normal forwards;
+  -moz-animation: anima-reveal .3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal .3s ease-in-out 1 normal forwards;
+  animation: anima-reveal .3s ease-in-out 1 normal forwards
+}
+
+.anima-animate-disappear {
+  opacity: 1;
+  display: block;
+  -webkit-animation: anima-reveal .3s ease-in-out 1 reverse forwards;
+  -moz-animation: anima-reveal .3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal .3s ease-in-out 1 reverse forwards;
+  animation: anima-reveal .3s ease-in-out 1 reverse forwards
+}
+
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0
+}
+
+@-webkit-keyframes anima-reveal {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@-moz-keyframes anima-reveal {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@-o-keyframes anima-reveal {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes anima-reveal {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
