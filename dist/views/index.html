@@ -1,11 +1,373 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-  	<meta charset="UTF-8">
-  	<title>beakr</title>
-  	<script defer src="/bundle.js"></script>
-  </head>
-  <body>
-  	<div class="hello" id="hello"></div>
-  </body>
+
+<!-- To get the source code upgrade to a Pro plan and Export code https://launchpad.animaapp.com/pricing - Sample Exported Code: https://medium.com/sketch-app-sources/how-to-export-sketch-to-html-65c427b3aa3a -->
+
+
+<html>
+<head>
+  <link rel="shortcut icon" type=image/png href=https://animaapp.s3.amazonaws.com/home/favicon.png>
+  <meta charset=UTF-8>
+  <meta name=viewport content="width=1281px, maximum-scale=1.0">
+  <style>
+  .landing-page{width:100%;min-width:1281px;height:100vh;min-height:1700px;position:relative;overflow:hidden;margin:0;background:rgba(255,255,255,1.0)}
+  a{text-decoration:none}
+  div{-webkit-text-size-adjust:none}
+  .landing-page .rectangle{background:rgba(52,52,52,1.0);top:-1px;height:56px;width:1280px;position:absolute;margin:0;left:0}
+  .landing-page .login{background:rgba(255,255,255,0.0);top:22px;height:auto;width:auto;position:absolute;margin:0;left:1107px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(126,210,33,1.0);text-align:center;line-height:16.0px}
+  .landing-page .oval{background:rgba(217,255,175,1.0);top:432px;height:76px;width:74px;position:absolute;margin:0;left:36px;border-radius:37px}
+  .landing-page .view1{background:rgba(217,255,175,1.0);top:304px;height:79px;width:76px;position:absolute;margin:0;left:83px;border-radius:38px}
+  .landing-page .view2{background:rgba(217,255,175,1.0);top:637px;height:225px;width:225px;position:absolute;margin:0;left:41px;border-radius:112px}
+  .landing-page .view3{background:rgba(217,255,175,1.0);top:405px;height:42px;width:41px;position:absolute;margin:0;left:155px;border-radius:20px}
+  .landing-page .view4{background:rgba(217,255,175,1.0);top:180px;height:41px;width:39px;position:absolute;margin:0;left:115px;border-radius:19px}
+  .landing-page .view5{background:rgba(217,255,175,1.0);top:239px;height:30px;width:29px;position:absolute;margin:0;left:147px;border-radius:14px}
+  .landing-page .view6{background:rgba(217,255,175,1.0);top:1214px;height:115px;width:111px;position:absolute;margin:0;left:38px;border-radius:55px}
+  .landing-page .view7{background:rgba(217,255,175,1.0);top:1086px;height:79px;width:76px;position:absolute;margin:0;left:175px;border-radius:38px}
+  .landing-page .view8{background:rgba(217,255,175,1.0);top:1193px;height:42px;width:41px;position:absolute;margin:0;left:154px;border-radius:20px}
+  .landing-page .view9{background:rgba(217,255,175,1.0);top:1423px;height:86px;width:86px;position:absolute;margin:0;left:121px;border-radius:43px}
+  .landing-page .view10{background:rgba(217,255,175,1.0);top:1509px;height:42px;width:41px;position:absolute;margin:0;left:69px;border-radius:20px}
+  .landing-page .view11{background:rgba(217,255,175,1.0);top:1135px;height:30px;width:29px;position:absolute;margin:0;left:64px;border-radius:14px}
+  .landing-page .view12{background:rgba(217,255,175,1.0);top:1264px;height:30px;width:29px;position:absolute;margin:0;left:186px;border-radius:14px}
+  .landing-page .view13{background:rgba(217,255,175,1.0);top:133px;height:17px;width:16px;position:absolute;margin:0;left:159px;border-radius:8px}
+  .landing-page .view14{background:rgba(217,255,175,1.0);top:88px;height:17px;width:16px;position:absolute;margin:0;left:130px;border-radius:8px}
+  .landing-page .image1{background:rgba(255,255,255,0.0);top:501px;height:115px;width:117px;position:absolute;margin:0;left:106px}
+  .landing-page .image2{background:rgba(255,255,255,0.0);top:980px;height:115px;width:117px;position:absolute;margin:0;left:59px}
+  .landing-page .group{background:rgba(255,255,255,0.0);top:7px;height:40px;width:142px;position:absolute;margin:0;left:13px}
+  .landing-page .group .beakr{background:rgba(255,255,255,0.0);top:8px;height:31px;width:110px;position:absolute;margin:0;left:32px}
+  .landing-page .group .beaker-full{background:rgba(255,255,255,0.0);top:0;height:40px;width:26px;position:absolute;margin:0;left:0}
+  .landing-page .group .beaker-full .beaker{background:rgba(255,255,255,0.0);top:0;height:40px;width:26px;position:absolute;margin:0;left:0}
+  .landing-page .group .beaker-full .beaker .combined-shape{background:rgba(255,255,255,0.0);top:0;height:40px;width:26px;position:relative;margin:0;left:0}
+  .landing-page .group .beaker-full .image3{background:rgba(255,255,255,0.0);top:21px;height:18px;width:24px;position:absolute;margin:0;left:1px}
+  .landing-page .group .beaker-full .oval4{background:rgba(217,255,175,1.0);top:29px;height:8px;width:8px;position:absolute;margin:0;left:7px;border-radius:4px}
+  .landing-page .group .beaker-full .view15{background:rgba(217,255,175,1.0);top:25px;height:5px;width:6px;position:absolute;margin:0;left:12px;border-radius:3px}
+  .landing-page .group .beaker-full .view16{background:rgba(217,255,175,1.0);top:31px;height:3px;width:3px;position:absolute;margin:0;left:16px;border-radius:1px}
+  .landing-page .view17{background:rgba(52,52,52,1.0);top:1534px;height:166px;width:1280px;position:absolute;margin:0;left:1px}
+  .landing-page .view18{background:rgba(255,255,255,0.0);top:1582px;height:34px;width:117px;position:absolute;margin:0;left:502px}
+  .landing-page .view18 .image4{background:rgba(255,255,255,0.0);top:6px;height:27px;width:91px;position:absolute;margin:0;left:26px}
+  .landing-page .view18 .view19{background:rgba(255,255,255,0.0);top:0;height:34px;width:22px;position:absolute;margin:0;left:0}
+  .landing-page .view18 .view19 .view20{background:rgba(255,255,255,0.0);top:0;height:34px;width:22px;position:absolute;margin:0;left:0}
+  .landing-page .view18 .view19 .view20 .image5{background:rgba(255,255,255,0.0);top:0;height:34px;width:22px;position:relative;margin:0;left:0}
+  .landing-page .view18 .view19 .image6{background:rgba(255,255,255,0.0);top:17px;height:16px;width:20px;position:absolute;margin:0;left:1px}
+  .landing-page .view18 .view19 .view21{background:rgba(217,255,175,1.0);top:24px;height:7px;width:6px;position:absolute;margin:0;left:6px;border-radius:3px}
+  .landing-page .view18 .view19 .view22{background:rgba(217,255,175,1.0);top:20px;height:5px;width:5px;position:absolute;margin:0;left:10px;border-radius:2px}
+  .landing-page .view18 .view19 .view23{background:rgba(217,255,175,1.0);top:25px;height:3px;width:3px;position:absolute;margin:0;left:13px;border-radius:1px}
+  .landing-page .rectangle2{background:rgba(255,255,255,0.0);top:336px;height:188px;width:188px;position:absolute;margin:0;left:658px}
+  .landing-page .image7{background:rgba(255,255,255,0.0);top:336px;height:188px;width:188px;position:absolute;margin:0;left:226px}
+  .landing-page .rectangle6{background:rgba(215,215,215,1.0);top:374px;height:17px;width:16px;position:absolute;margin:0;left:298px}
+  .landing-page .image8{background:rgba(255,255,255,0.0);top:336px;height:188px;width:188px;position:absolute;margin:0;left:872px}
+  .landing-page .image9{background:rgba(255,255,255,0.0);top:361px;height:96px;width:109px;position:absolute;margin:0;left:919px}
+  .landing-page .line{background:rgba(255,255,255,0.0);top:393px;height:1px;width:65px;position:absolute;margin:0;left:941px}
+  .landing-page .image10{background:rgba(255,255,255,0.0);top:400px;height:1px;width:65px;position:absolute;margin:0;left:941px}
+  .landing-page .image11{background:rgba(255,255,255,0.0);top:414px;height:1px;width:65px;position:absolute;margin:0;left:941px}
+  .landing-page .image12{background:rgba(255,255,255,0.0);top:407px;height:1px;width:65px;position:absolute;margin:0;left:941px}
+  .landing-page .image13{background:rgba(255,255,255,0.0);top:397px;height:1px;width:45px;position:absolute;margin:0;left:298px}
+  .landing-page .image14{background:rgba(255,255,255,0.0);top:404px;height:1px;width:45px;position:absolute;margin:0;left:298px}
+  .landing-page .image15{background:rgba(255,255,255,0.0);top:411px;height:1px;width:45px;position:absolute;margin:0;left:298px}
+  .landing-page .image16{background:rgba(255,255,255,0.0);top:418px;height:1px;width:45px;position:absolute;margin:0;left:298px}
+  .landing-page .image17{background:rgba(255,255,255,0.0);top:425px;height:1px;width:45px;position:absolute;margin:0;left:298px}
+  .landing-page .image18{background:rgba(255,255,255,0.0);top:432px;height:1px;width:45px;position:absolute;margin:0;left:298px}
+  .landing-page .image19{background:rgba(255,255,255,0.0);top:336px;height:188px;width:188px;position:absolute;margin:0;left:440px}
+  .landing-page .welcome-to-beakr{background:rgba(255,255,255,0.0);top:105px;height:auto;width:auto;position:absolute;margin:0;left:369px;font-family:'STHeitiSC-Medium',Helvetica,Arial,serif;font-size:60.0px;color:rgba(123,212,0,1.0);text-align:center;line-height:62.0px}
+  .landing-page .rectangle3{background:rgba(126,210,33,1.0);top:629px;height:57px;width:242px;position:absolute;margin:0;left:520px}
+  .landing-page .view24{background:rgba(255,255,255,0.0);top:702px;height:38px;width:242px;position:absolute;margin:0;left:520px;border-style:solid;border-width:1px;border-color:rgba(126,210,33,1.0)}
+  .landing-page .get-started{background:rgba(255,255,255,0.0);top:648px;height:auto;width:auto;position:absolute;margin:0;left:589px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:20.0px;color:rgba(255,255,255,1.0);text-align:center;line-height:24.0px}
+  .landing-page .are-you-a-professor{background:rgba(255,255,255,0.0);top:712px;height:auto;width:auto;position:absolute;margin:0;left:572px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(126,210,33,1.0);text-align:center;line-height:16.0px}
+  .landing-page .oval2{background:rgba(255,255,255,0.0);top:360px;height:93px;width:92px;position:absolute;margin:0;left:706px}
+  .landing-page .line2{background:rgba(255,255,255,0.0);top:354px;height:78px;width:84px;position:absolute;margin:0;left:726px}
+  .landing-page .rectangle4{background:rgba(255,255,255,0.0);top:363px;height:87px;width:74px;position:absolute;margin:0;left:283px;border-style:solid;border-width:6px;border-color:rgba(126,210,33,1.0)}
+  .landing-page .save-the-research-fo{background:rgba(255,255,255,0.0);top:184px;height:auto;width:858px;position:absolute;margin:0;left:211px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:24.0px;color:rgba(73,73,74,1.0);text-align:center;line-height:29.0px}
+  .landing-page .rectangle5{background:rgba(126,210,33,1.0);top:14px;height:31px;width:81px;position:absolute;margin:0;left:1183px}
+  .landing-page .sign-up{background:rgba(255,255,255,0.0);top:22px;height:auto;width:auto;position:absolute;margin:0;left:1197px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:16.0px}
+  .landing-page .view25{background:rgba(255,255,255,0.0);top:15px;height:31px;width:81px;position:absolute;margin:0;left:1085px;border-style:solid;border-width:2px;border-color:rgba(126,210,33,1.0)}
+  .landing-page .about-the-team{background:rgba(255,255,255,0.0);top:21px;height:auto;width:auto;position:absolute;margin:0;left:815px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(126,210,33,1.0);text-align:center;line-height:16.0px}
+  .landing-page .support{background:rgba(255,255,255,0.0);top:21px;height:auto;width:auto;position:absolute;margin:0;left:963px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(126,210,33,1.0);text-align:center;line-height:16.0px}
+  .landing-page .contact-us{background:rgba(255,255,255,0.0);top:21px;height:auto;width:auto;position:absolute;margin:0;left:689px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(126,210,33,1.0);text-align:center;line-height:16.0px}
+  .landing-page .view26{background:rgba(255,255,255,0.0);top:77px;height:176px;width:111px;position:absolute;margin:0;left:283px}
+  .landing-page .view26 .view27{background:rgba(255,255,255,0.0);top:0;height:176px;width:111px;position:absolute;margin:0;left:0}
+  .landing-page .view26 .view27 .image20{background:rgba(255,255,255,0.0);top:0;height:176px;width:111px;position:relative;margin:0;left:0}
+  .landing-page .view26 .image21{background:rgba(255,255,255,0.0);top:92px;height:80px;width:99px;position:absolute;margin:0;left:6px}
+  .landing-page .view26 .view28{background:rgba(217,255,175,1.0);top:129px;height:34px;width:30px;position:absolute;margin:0;left:32px;border-radius:15px}
+  .landing-page .view26 .view29{background:rgba(217,255,175,1.0);top:110px;height:20px;width:20px;position:absolute;margin:0;left:55px;border-radius:10px}
+  .landing-page .view26 .view30{background:rgba(217,255,175,1.0);top:136px;height:12px;width:12px;position:absolute;margin:0;left:70px;border-radius:6px}
+  .landing-page .as-an-undergrad-fin{background:rgba(255,255,255,0.0);top:274px;height:auto;width:795px;position:absolute;margin:0;left:239px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:14.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:17.0px}
+  .landing-page .u-pload{background:rgba(255,255,255,0.0);top:477px;height:auto;width:auto;position:absolute;margin:0;left:270px;font-family:'STHeitiSC-Medium',Helvetica,Arial,serif;font-size:24.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:25.0px}
+  .landing-page .m-atch{background:rgba(255,255,255,0.0);top:477px;height:auto;width:auto;position:absolute;margin:0;left:708px;font-family:'STHeitiSC-Medium',Helvetica,Arial,serif;font-size:24.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:25.0px}
+  .landing-page .m-essage{background:rgba(255,255,255,0.0);top:477px;height:auto;width:auto;position:absolute;margin:0;left:910px;font-family:'STHeitiSC-Medium',Helvetica,Arial,serif;font-size:24.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:25.0px}
+  .landing-page .s-earch{background:rgba(255,255,255,0.0);top:477px;height:auto;width:auto;position:absolute;margin:0;left:486px;font-family:'STHeitiSC-Medium',Helvetica,Arial,serif;font-size:24.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:25.0px}
+  .landing-page .bitmap{background:rgba(255,255,255,0.0);top:1251px;height:258px;width:518px;position:absolute;margin:0;left:647px}
+  .landing-page .rectangle10{background:rgba(52,52,52,1.0);top:1273px;height:209px;width:777px;position:absolute;margin:0;left:0}
+  .landing-page .faculty-and-universi{background:rgba(255,255,255,0.0);top:1350px;height:auto;width:615px;position:absolute;margin:0;left:113px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:16.0px;color:rgba(255,255,255,1.0);text-align:left;line-height:18.0px}
+  .landing-page .join-the-beakr-commu{background:rgba(255,255,255,0.0);top:1299px;height:auto;width:auto;position:absolute;margin:0;left:109px;font-family:'STHeitiSC-Medium',Helvetica,Arial,serif;font-size:30.0px;color:rgba(255,255,255,1.0);text-align:center;line-height:31.0px}
+  .landing-page .image22{background:rgba(255,255,255,0.0);top:772px;height:298px;width:499px;position:absolute;margin:0;left:667px}
+  .landing-page .view31{background:rgba(52,52,52,1.0);top:795px;height:209px;width:777px;position:absolute;margin:0;left:0}
+  .landing-page .all-matches-from-bea{background:rgba(255,255,255,0.0);top:868px;height:auto;width:640px;position:absolute;margin:0;left:109px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:16.0px;color:rgba(255,255,255,1.0);text-align:left;line-height:18.0px}
+  .landing-page .how-it-works{background:rgba(255,255,255,0.0);top:821px;height:auto;width:auto;position:absolute;margin:0;left:112px;font-family:'STHeitiSC-Medium',Helvetica,Arial,serif;font-size:30.0px;color:rgba(255,255,255,1.0);text-align:center;line-height:31.0px}
+  .landing-page .download-the-app{background:rgba(255,255,255,0.0);top:1095px;height:auto;width:auto;position:absolute;margin:0;left:863px;font-family:'STHeitiSC-Medium',Helvetica,Arial,serif;font-size:30.0px;color:rgba(0,0,0,1.0);text-align:right;line-height:31.0px}
+  .landing-page .rectangle11{background:rgba(126,210,33,1.0);top:1423px;height:42px;width:166px;position:absolute;margin:0;left:306px}
+  .landing-page .label1{background:rgba(255,255,255,0.0);top:1433px;height:auto;width:auto;position:absolute;margin:0;left:338px;font-family:'Arial',Helvetica,Arial,serif;font-weight:400;font-style:normal;font-size:20.0px;color:rgba(255,255,255,1.0);text-align:center;line-height:23.0px}
+  .landing-page .available-for-free-o{background:rgba(255,255,255,0.0);top:1150px;height:auto;width:420px;position:absolute;margin:0;left:751px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:16.0px;color:rgba(0,0,0,1.0);text-align:right;line-height:18.0px}
+  .landing-page .create-a-profile-up{background:rgba(255,255,255,0.0);top:528px;height:auto;width:187px;position:absolute;margin:0;left:231px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:14.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:17.0px}
+  .landing-page .find-a-lab-you-like{background:rgba(255,255,255,0.0);top:530px;height:auto;width:187px;position:absolute;margin:0;left:659px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:14.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:17.0px}
+  .landing-page .look-through-our-sug{background:rgba(255,255,255,0.0);top:530px;height:auto;width:187px;position:absolute;margin:0;left:445px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:14.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:17.0px}
+  .landing-page .if-youre-accepted{background:rgba(255,255,255,0.0);top:530px;height:76px;width:185px;position:absolute;margin:0;left:869px}
+  .landing-page .view32{background:rgba(255,255,255,0.0);top:359px;height:94px;width:76px;position:absolute;margin:0;left:497px}
+  .landing-page .view32 .image23{background:rgba(255,255,255,0.0);top:0;height:69px;width:69px;position:absolute;margin:0;left:0}
+  .landing-page .view32 .line3{background:rgba(255,255,255,0.0);top:58px;height:35px;width:28px;position:absolute;margin:0;left:47px}
+  .landing-page .est2017{background:rgba(255,255,255,0.0);top:1621px;height:auto;width:auto;position:absolute;margin:0;left:555px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:14.0px;color:rgba(216,255,171,1.0);text-align:center;line-height:17.0px}
+  .landing-page .line4{background:rgba(255,255,255,0.0);top:1553px;height:116px;width:3px;position:absolute;margin:0;left:647px}
+  .landing-page .contact-us-about-the{background:rgba(255,255,255,0.0);top:1560px;height:auto;width:auto;position:absolute;margin:0;left:669px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:16.0px;color:rgba(255,255,255,1.0);text-align:left;line-height:18.0px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917{background:rgba(255,255,255,0.0);top:1186px;height:40px;width:120px;position:absolute;margin:0;left:1051px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .group3{background:rgba(255,255,255,0.0);top:0;height:40px;width:120px;position:absolute;margin:0;left:0}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill4{background:rgba(255,255,255,0.0);top:0;height:40px;width:119px;position:absolute;margin:0;left:0}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill5{background:rgba(255,255,255,0.0);top:13px;height:18px;width:19px;position:absolute;margin:0;left:9px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill6{background:rgba(255,255,255,0.0);top:8px;height:6px;width:6px;position:absolute;margin:0;left:18px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill7{background:rgba(255,255,255,0.0);top:18px;height:13px;width:12px;position:absolute;margin:0;left:34px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill8{background:rgba(255,255,255,0.0);top:21px;height:13px;width:10px;position:absolute;margin:0;left:46px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill9{background:rgba(255,255,255,0.0);top:21px;height:13px;width:10px;position:absolute;margin:0;left:56px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill10{background:rgba(255,255,255,0.0);top:17px;height:14px;width:11px;position:absolute;margin:0;left:69px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill11{background:rgba(255,255,255,0.0);top:19px;height:12px;width:6px;position:absolute;margin:0;left:80px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill12{background:rgba(255,255,255,0.0);top:21px;height:10px;width:9px;position:absolute;margin:0;left:86px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill13{background:rgba(255,255,255,0.0);top:21px;height:10px;width:5px;position:absolute;margin:0;left:96px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill14{background:rgba(255,255,255,0.0);top:21px;height:10px;width:9px;position:absolute;margin:0;left:101px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill15{background:rgba(255,255,255,0.0);top:8px;height:7px;width:6px;position:absolute;margin:0;left:35px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill16{background:rgba(255,255,255,0.0);top:10px;height:5px;width:5px;position:absolute;margin:0;left:41px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill17{background:rgba(255,255,255,0.0);top:10px;height:5px;width:7px;position:absolute;margin:0;left:46px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill18{background:rgba(255,255,255,0.0);top:10px;height:5px;width:5px;position:absolute;margin:0;left:53px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill19{background:rgba(255,255,255,0.0);top:8px;height:7px;width:2px;position:absolute;margin:0;left:59px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill20{background:rgba(255,255,255,0.0);top:10px;height:5px;width:5px;position:absolute;margin:0;left:61px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill21{background:rgba(255,255,255,0.0);top:10px;height:5px;width:5px;position:absolute;margin:0;left:66px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill22{background:rgba(255,255,255,0.0);top:8px;height:7px;width:5px;position:absolute;margin:0;left:71px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill23{background:rgba(255,255,255,0.0);top:10px;height:5px;width:5px;position:absolute;margin:0;left:79px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill24{background:rgba(255,255,255,0.0);top:10px;height:5px;width:5px;position:absolute;margin:0;left:84px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill25{background:rgba(255,255,255,0.0);top:9px;height:6px;width:4px;position:absolute;margin:0;left:91px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill26{background:rgba(255,255,255,0.0);top:8px;height:7px;width:5px;position:absolute;margin:0;left:95px}
+  .landing-page .downloadonthe-app-store-badge-usu-kblk092917 .fill27{background:rgba(255,255,255,0.0);top:10px;height:5px;width:5px;position:absolute;margin:0;left:100px}
+  .landing-page .googleplaybadge{background:rgba(255,255,255,0.0);top:1177px;height:58px;width:150px;position:absolute;margin:0;left:899px}
+  .landing-page .oval8{background:rgba(255,255,255,0.0);top:1093px;height:127px;width:123px;position:absolute;margin:0;left:692px}
+  .landing-page .view33{background:rgba(255,255,255,0.0);top:1111px;height:91px;width:59px;position:absolute;margin:0;left:724px}
+  .landing-page .view33 .view34{background:rgba(255,255,255,0.0);top:0;height:91px;width:59px;position:absolute;margin:0;left:0}
+  .landing-page .view33 .view34 .image24{background:rgba(255,255,255,0.0);top:0;height:91px;width:59px;position:relative;margin:0;left:0}
+  .landing-page .view33 .image25{background:rgba(255,255,255,0.0);top:47px;height:42px;width:53px;position:absolute;margin:0;left:3px}
+  .landing-page .view33 .view35{background:rgba(217,255,175,1.0);top:67px;height:18px;width:16px;position:absolute;margin:0;left:17px;border-radius:8px}
+  .landing-page .view33 .view36{background:rgba(217,255,175,1.0);top:56px;height:12px;width:11px;position:absolute;margin:0;left:29px;border-radius:5px}
+  .landing-page .view33 .view37{background:rgba(217,255,175,1.0);top:70px;height:7px;width:7px;position:absolute;margin:0;left:37px;border-radius:3px}
+  .anima-animate-appear{opacity:0;display:block;-webkit-animation:anima-reveal .3s ease-in-out 1 normal forwards;-moz-animation:anima-reveal .3s ease-in 1 normal forwards;-o-animation:anima-reveal .3s ease-in-out 1 normal forwards;animation:anima-reveal .3s ease-in-out 1 normal forwards}
+  .anima-animate-disappear{opacity:1;display:block;-webkit-animation:anima-reveal .3s ease-in-out 1 reverse forwards;-moz-animation:anima-reveal .3s ease-in 1 normal forwards;-o-animation:anima-reveal .3s ease-in-out 1 reverse forwards;animation:anima-reveal .3s ease-in-out 1 reverse forwards}
+  .anima-animate-nodelay{-webkit-animation-delay:0;-moz-animation-delay:0;-o-animation-delay:0;animation-delay:0}
+  @-webkit-keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
+  @-moz-keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
+  @-o-keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
+  @keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
+</style>
+<meta name=author content="Launchpad by Anima">
+</head>
+
+
+<body style="margin: 0; background: rgba(255, 255, 255, 1.0);">
+  <input type=hidden id=anPageName name=page value=landingpage>
+  <div class=landing-page>
+    <div style="width: 1281px; height: 100%; position:relative; margin:auto;">
+      <div class=rectangle>
+        <input type=text name=trapit value style=display:none;>
+      </div><div class=login>Login</div>
+      <div class=oval><input type=text name=trapit value style=display:none;></div>
+      <div class=view1><input type=text name=trapit value style=display:none;></div>
+      <div class=view2><input type=text name=trapit value style=display:none;></div>
+      <div class=view3><input type=text name=trapit value style=display:none;></div>
+      <div class=view4><input type=text name=trapit value style=display:none;></div>
+      <div class=view5><input type=text name=trapit value style=display:none;></div>
+      <div class=view6><input type=text name=trapit value style=display:none;></div>
+      <div class=view7><input type=text name=trapit value style=display:none;></div>
+      <div class=view8><input type=text name=trapit value style=display:none;></div>
+      <div class=view9><input type=text name=trapit value style=display:none;></div>
+      <div class=view10><input type=text name=trapit value style=display:none;></div>
+      <div class=view11><input type=text name=trapit value style=display:none;></div>
+      <div class=view12><input type=text name=trapit value style=display:none;></div>
+      <div class=view13><input type=text name=trapit value style=display:none;></div>
+      <div class=view14><input type=text name=trapit value style=display:none;></div>
+      <img class=image1 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/sign up pageoval.png">
+      <img class=image2 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/sign up pageoval.png">
+      <div class=group><input type=text name=trapit value style=display:none;>
+        <img class=beakr src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/sign up pagebeakr.png">
+        <div class=beaker-full><input type=text name=trapit value style=display:none;>
+          <div class=beaker>
+            <input type=text name=trapit value style=display:none;>
+          <img class=combined-shape src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/sign up pagecombined shape.png">
+        </div>
+          <img class=image3 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/dashboard student  newcombined shape  1.png">
+          <div class=oval4><input type=text name=trapit value style=display:none;></div><div class=view15><input type=text name=trapit value style=display:none;></div><div class=view16><input type=text name=trapit value style=display:none;>
+          </div>
+        </div>
+      </div>
+      <div class=view17>
+        <input type=text name=trapit value style=display:none;>
+      </div>
+      <div class=view18>
+        <input type=text name=trapit value style=display:none;>
+        <img class=image4 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/search student beakr  1.png">
+        <div class=view19>
+          <input type=text name=trapit value style=display:none;>
+          <div class=view20><input type=text name=trapit value style=display:none;>
+            <img class=image5 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagecombined shape  2.png">
+          </div>
+          <img class=image6 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagecombined shape  3.png">
+          <div class=view21>
+            <input type=text name=trapit value style=display:none;>
+          </div>
+          <div class=view22>
+            <input type=text name=trapit value style=display:none;>
+          </div>
+          <div class=view23>
+            <input type=text name=trapit value style=display:none;>
+          </div>
+        </div>
+      </div>
+      <img class=rectangle2 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagerectangle 2  1.png">
+      <img class=image7 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagerectangle 2  1.png">
+      <div class=rectangle6>
+        <input type=text name=trapit value style=display:none;>
+      </div>
+      <img class=image8 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagerectangle 2  1.png">
+      <img class=image9 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagecombined shape  4.png">
+      <img class=line src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageline.png">
+      <img class=image10 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageline.png">
+      <img class=image11 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageline.png">
+      <img class=image12 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageline.png">
+      <img class=image13 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageline  8.png">
+      <img class=image14 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageline  8.png">
+      <img class=image15 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageline  8.png">
+      <img class=image16 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageline  8.png">
+      <img class=image17 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageline  8.png">
+      <img class=image18 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageline  8.png">
+      <img class=image19 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagerectangle 2  1.png">
+      <div class=welcome-to-beakr>Welcome to beakr
+      </div>
+      <div class=rectangle3><input type=text name=trapit value style=display:none;>
+      </div>
+      <div class=view24>
+        <input type=text name=trapit value style=display:none;>
+      </div>
+      <div class=get-started>Get Started
+      </div>
+      <div class=are-you-a-professor>Are You A Professor?
+      </div>
+      <img class=oval2 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageoval 2.png">
+      <img class=line2 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageline 2.png">
+      <div class=rectangle4>
+        <input type=text name=trapit value style=display:none;>
+      </div>
+      <div class=save-the-research-fo>Save the research for when you get to the lab.
+      </div>
+      <div class=rectangle5>
+        <input type=text name=trapit value style=display:none;>
+      </div>
+      <a href="signup">
+      <div class=sign-up>Sign Up</div>
+      </a>
+      <a href=login>
+        <div class=view25>
+          <input type=text name=trapit value style=display:none;>
+        </div>
+      </a>
+      <div class=about-the-team>About the Team</div>
+      <div class=support>Support</div>
+      <div class=contact-us>Contact Us</div>
+      <div class=view26>
+        <input type=text name=trapit value style=display:none;>
+        <div class=view27>
+          <input type=text name=trapit value style=display:none;>
+          <img class=image20 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagecombined shape  5.png">
+        </div>
+        <img class=image21 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagecombined shape  6.png">
+        <div class=view28>
+          <input type=text name=trapit value style=display:none;>
+        </div>
+        <div class=view29>
+          <input type=text name=trapit value style=display:none;>
+        </div>
+        <div class=view30>
+          <input type=text name=trapit value style=display:none;>
+        </div>
+      </div>
+      <div class=as-an-undergrad-fin> As an undergrad, finding the right lab or project can be intimidating. That’s where beakr comes in. Create an account using a valid school email and begin your search for the perfect undergraduate research opportunity from your university.
+      </div>
+      <div class=u-pload>UPLOAD</div>
+      <div class=m-atch>MATCH</div>
+      <div class=m-essage>MESSAGE</div>
+      <div class=s-earch>SEARCH</div>
+      <img class=bitmap src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagebitmap.png">
+      <div class=rectangle10>
+        <input type=text name=trapit value style=display:none;></div>
+        <div class=faculty-and-universi>Faculty and universities can set up custom admin accounts to manage all research opportunties from a university. Contact the beakr team to see what we can do for you!</div>
+        <div class=join-the-beakr-commu>JOIN THE BEAKR COMMUNITY</div>
+        <img class=image22 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagebitmap  1.png">
+        <div class=view31>
+          <input type=text name=trapit value style=display:none;></div>
+          <div class=all-matches-from-bea>All matches from beakr are generated from a search algorithm using a student’s interests and preferences. Once a student creates a profile, a set of instant matches is tailored for them. With each match the student accepts, beakr works to bring similar labs to their attention, including the latest research opportunities posted from faculty.
+          </div>
+          <div class=how-it-works>HOW IT WORKS</div>
+          <div class=download-the-app>DOWNLOAD THE APP</div>
+          <div class=rectangle11><input type=text name=trapit value style=display:none;>
+          </div>
+          <div class=label1>Contact Us</div>
+          <div class=available-for-free-o>Available for free on Android and iOS devices.</div>
+          <div class=create-a-profile-up>Create a profile, upload your resume, and fill out our interest questionnaire.</div>
+          <div class=find-a-lab-you-like>Find a lab you like? Just click and send your resume to the professor!</div>
+          <div class=look-through-our-sug>Look through our suggestions tailored for you or go on a search quest of your own.</div>
+          <img class=if-youre-accepted src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageif youre accepted.png">
+          <div class=view32>
+            <input type=text name=trapit value style=display:none;>
+            <img class=image23 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageoval 4.png">
+            <img class=line3 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageline 3.png"></div>
+            <div class=est2017>est. 2017</div>
+            <img class=line4 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/sign up pageline 4.png">
+            <div class=contact-us-about-the>Contact Us<br><br>About the Team<br><br>Support<br></div>
+            <div class=downloadonthe-app-store-badge-usu-kblk092917>
+              <input type=text name=trapit value style=display:none;>
+              <img class=group3 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing page group 3.png">
+              <img class=fill4 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 4.png">
+              <img class=fill5 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 5.png">
+              <img class=fill6 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 6.png">
+              <img class=fill7 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 7.png">
+              <img class=fill8 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 8.png">
+              <img class=fill9 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 9.png">
+              <img class=fill10 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 10.png">
+              <img class=fill11 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 11.png">
+              <img class=fill12 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 12.png">
+              <img class=fill13 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 13.png">
+              <img class=fill14 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 14.png">
+              <img class=fill15 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 15.png">
+              <img class=fill16 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 20.png">
+              <img class=fill17 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 17.png">
+              <img class=fill18 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 18.png">
+              <img class=fill19 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 19.png">
+              <img class=fill20 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 20.png">
+              <img class=fill21 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 21.png">
+              <img class=fill22 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 22.png">
+              <img class=fill23 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 20.png">
+              <img class=fill24 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 18.png">
+              <img class=fill25 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 25.png">
+              <img class=fill26 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 26.png">
+              <img class=fill27 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagefill 27.png">
+            </div>
+            <img class=googleplaybadge src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagegoogleplaybadge.png">
+            <img class=oval8 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pageoval 8.png">
+            <div class=view33>
+              <input type=text name=trapit value style=display:none;>
+              <div class=view34>
+                <input type=text name=trapit value style=display:none;>
+                <img class=image24 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagecombined shape  7.png">
+              </div>
+              <img class=image25 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagecombined shape  8.png"><div class=view35><input type=text name=trapit value style=display:none;></div><div class=view36><input type=text name=trapit value style=display:none;></div><div class=view37><input type=text name=trapit value style=display:none;>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>anima_isHidden=function(e){if(!(e instanceof HTMLElement))return!1;if(getComputedStyle(e).display=="none")return!0;else if(e.parentNode&&anima_isHidden(e.parentNode))return!0;return!1};anima_loadAsyncSrcForTag=function(tag){var elements=document.getElementsByTagName(tag);var toLoad=[];for(var i=0;i<elements.length;i++){var e=elements[i];var src=e.getAttribute("src");var loaded=(src!=undefined&&src.length>0&&src!='data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');if(loaded)continue;var asyncSrc=e.getAttribute("anima-src");if(asyncSrc==undefined||asyncSrc.length==0)continue;if(anima_isHidden(e))continue;toLoad.push(e)}
+toLoad.sort(function(a,b){return anima_getTop(a)-anima_getTop(b)});for(var i=0;i<toLoad.length;i++){var e=toLoad[i];var asyncSrc=e.getAttribute("anima-src");e.setAttribute("src",asyncSrc)}};anima_pauseHiddenVideos=function(tag){var elements=document.getElementsByTagName("video");for(var i=0;i<elements.length;i++){var e=elements[i];var isPlaying=!!(e.currentTime>0&&!e.paused&&!e.ended&&e.readyState>2);var isHidden=anima_isHidden(e);if(!isPlaying&&!isHidden&&e.getAttribute("autoplay")=="autoplay"){e.play()}
+else if(isPlaying&&isHidden){e.pause()}}};anima_loadAsyncSrc=function(tag){anima_loadAsyncSrcForTag("img");anima_loadAsyncSrcForTag("iframe");anima_loadAsyncSrcForTag("video");anima_pauseHiddenVideos()};var anima_getTop=function(e){var top=0;do{top+=e.offsetTop||0;e=e.offsetParent}while(e);return top};anima_loadAsyncSrc();anima_old_onResize=window.onresize;anima_new_onResize=undefined;anima_updateOnResize=function(){if(anima_new_onResize==undefined||window.onresize!=anima_new_onResize){anima_new_onResize=function(x){if(anima_old_onResize!=undefined)anima_old_onResize(x);anima_loadAsyncSrc()}
+window.onresize=anima_new_onResize;setTimeout(function(){anima_updateOnResize()},3000)}};anima_updateOnResize();setTimeout(function(){anima_loadAsyncSrc()},200)
+</script>
+<script src=launchpad-js/launchpad-banner.js async>
+</script>
+</body>
 </html>
