@@ -1,0 +1,826 @@
+  .about {
+    width: 100%;
+    min-width: 1280px;
+    height: 100vh;
+    min-height: 850px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    background: rgba(255, 255, 255, 1.0)
+  }
+
+  a {
+    text-decoration: none
+  }
+
+  div {
+    -webkit-text-size-adjust: none
+  }
+
+  .about .rectangle {
+    background: rgba(52, 52, 52, 1.0);
+    top: 0;
+    height: 56px;
+    width: 1280px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .about .rectangle5 {
+    background: rgba(126, 210, 33, 1.0);
+    top: 14px;
+    height: 31px;
+    width: 81px;
+    position: absolute;
+    margin: 0;
+    left: 1183px
+  }
+
+  .about .login {
+    background: rgba(255, 255, 255, 0.0);
+    top: 22px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 1107px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(126, 210, 33, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .about .group {
+    background: rgba(255, 255, 255, 0.0);
+    top: 7px;
+    height: 40px;
+    width: 142px;
+    position: absolute;
+    margin: 0;
+    left: 13px
+  }
+
+  .about .group .beakr {
+    background: rgba(255, 255, 255, 0.0);
+    top: 8px;
+    height: 31px;
+    width: 110px;
+    position: absolute;
+    margin: 0;
+    left: 32px
+  }
+
+  .about .group .beaker-full {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 40px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .about .group .beaker-full .beaker {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 40px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .about .group .beaker-full .beaker .combined-shape {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 40px;
+    width: 26px;
+    position: relative;
+    margin: 0;
+    left: 0
+  }
+
+  .about .group .beaker-full .image1 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 21px;
+    height: 18px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    left: 1px
+  }
+
+  .about .group .beaker-full .oval4 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 29px;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    margin: 0;
+    left: 7px;
+    border-radius: 4px
+  }
+
+  .about .group .beaker-full .view1 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 25px;
+    height: 5px;
+    width: 6px;
+    position: absolute;
+    margin: 0;
+    left: 12px;
+    border-radius: 3px
+  }
+
+  .about .group .beaker-full .view2 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 31px;
+    height: 3px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 16px;
+    border-radius: 1px
+  }
+
+  .about .sign-up {
+    background: rgba(255, 255, 255, 0.0);
+    top: 22px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 1197px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(74, 73, 74, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .about .view3 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 15px;
+    height: 31px;
+    width: 81px;
+    position: absolute;
+    margin: 0;
+    left: 1085px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(126, 210, 33, 1.0)
+  }
+
+  .about .about-the-team {
+    background: rgba(255, 255, 255, 0.0);
+    top: 21px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 815px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(126, 210, 33, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .about .support {
+    background: rgba(255, 255, 255, 0.0);
+    top: 21px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 963px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(126, 210, 33, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .about .contact-us {
+    background: rgba(255, 255, 255, 0.0);
+    top: 21px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 689px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(126, 210, 33, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .about .group2 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 95px;
+    height: 774px;
+    width: 230px;
+    position: absolute;
+    margin: 0;
+    left: 901px
+  }
+
+  .about .footer {
+    background: rgba(255, 255, 255, 0.0);
+    top: 685px;
+    height: 166px;
+    width: 1280px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .about .footer .view4 {
+    background: rgba(52, 52, 52, 1.0);
+    top: 0;
+    height: 166px;
+    width: 1280px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .about .footer .view5 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 48px;
+    height: 34px;
+    width: 117px;
+    position: absolute;
+    margin: 0;
+    left: 501px
+  }
+
+  .about .footer .view5 .image2 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 6px;
+    height: 27px;
+    width: 91px;
+    position: absolute;
+    margin: 0;
+    left: 26px
+  }
+
+  .about .footer .view5 .view6 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 34px;
+    width: 22px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .about .footer .view5 .view6 .view7 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 34px;
+    width: 22px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .about .footer .view5 .view6 .view7 .image3 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 34px;
+    width: 22px;
+    position: relative;
+    margin: 0;
+    left: 0
+  }
+
+  .about .footer .view5 .view6 .image4 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 17px;
+    height: 16px;
+    width: 20px;
+    position: absolute;
+    margin: 0;
+    left: 1px
+  }
+
+  .about .footer .view5 .view6 .view8 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 24px;
+    height: 7px;
+    width: 6px;
+    position: absolute;
+    margin: 0;
+    left: 6px;
+    border-radius: 3px
+  }
+
+  .about .footer .view5 .view6 .view9 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 20px;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    margin: 0;
+    left: 10px;
+    border-radius: 2px
+  }
+
+  .about .footer .view5 .view6 .view10 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 25px;
+    height: 3px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 13px;
+    border-radius: 1px
+  }
+
+  .about .footer .est2017 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 87px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 554px;
+    font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(216, 255, 171, 1.0);
+    text-align: center;
+    line-height: 17.0px
+  }
+
+  .about .footer .line4 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 19px;
+    height: 116px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 646px
+  }
+
+  .about .footer .contact-us-about-the {
+    background: rgba(255, 255, 255, 0.0);
+    top: 26px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 668px;
+    font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 18.0px
+  }
+
+  .about .label1 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 140px;
+    height: auto;
+    width: 295px;
+    position: absolute;
+    margin: 0;
+    left: 493px;
+    font-family: 'STHeitiSC-Medium', Helvetica, Arial, serif;
+    font-size: 24.0px;
+    color: rgba(123, 212, 0, 1.0);
+    text-align: center;
+    line-height: 25.0px
+  }
+
+  .about .image5 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 288px;
+    height: 3px;
+    width: 1441px;
+    position: absolute;
+    margin: 0;
+    left: -121px
+  }
+
+  .about .view11 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 207px;
+    height: 164px;
+    width: 164px;
+    position: absolute;
+    margin: 0;
+    left: 98px
+  }
+
+  .about .view11 .oval6 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 164px;
+    width: 164px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .about .view11 .view12 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 35px;
+    height: 94px;
+    width: 61px;
+    position: absolute;
+    margin: 0;
+    left: 52px
+  }
+
+  .about .view11 .view12 .view13 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 94px;
+    width: 61px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .about .view11 .view12 .view13 .image6 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 94px;
+    width: 61px;
+    position: relative;
+    margin: 0;
+    left: 0
+  }
+
+  .about .view11 .view12 .image7 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 49px;
+    height: 43px;
+    width: 55px;
+    position: absolute;
+    margin: 0;
+    left: 3px
+  }
+
+  .about .view11 .view12 .view14 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 69px;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin: 0;
+    left: 17px;
+    border-radius: 9px
+  }
+
+  .about .view11 .view12 .view15 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 58px;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: 30px;
+    border-radius: 6px
+  }
+
+  .about .view11 .view12 .view16 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 72px;
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    margin: 0;
+    left: 38px;
+    border-radius: 3px
+  }
+
+  .about .hunter-ginther {
+    background: rgba(255, 255, 255, 0.0);
+    top: 348px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 590px;
+    font-family: 'STHeitiSC-Medium', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(52, 52, 52, 1.0);
+    text-align: center;
+    line-height: 14.0px
+  }
+
+  .about .web-mobile-develop {
+    background: rgba(255, 255, 255, 0.0);
+    top: 368px;
+    height: auto;
+    width: 117px;
+    position: absolute;
+    margin: 0;
+    left: 582px;
+    font-family: 'STHeitiSC-Medium', Helvetica, Arial, serif;
+    font-size: 10.0px;
+    color: rgba(52, 52, 52, 1.0);
+    text-align: center;
+    line-height: 10.0px
+  }
+
+  .about .brandon-splitter {
+    background: rgba(255, 255, 255, 0.0);
+    top: 348px;
+    height: auto;
+    width: 109px;
+    position: absolute;
+    margin: 0;
+    left: 330px;
+    font-family: 'STHeitiSC-Medium', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(52, 52, 52, 1.0);
+    text-align: center;
+    line-height: 14.0px
+  }
+
+  .about .designer-web-devel {
+    background: rgba(255, 255, 255, 0.0);
+    top: 368px;
+    height: auto;
+    width: 130px;
+    position: absolute;
+    margin: 0;
+    left: 319px;
+    font-family: 'STHeitiSC-Medium', Helvetica, Arial, serif;
+    font-size: 10.0px;
+    color: rgba(52, 52, 52, 1.0);
+    text-align: center;
+    line-height: 10.0px
+  }
+
+  .about .web-developer-data {
+    background: rgba(255, 255, 255, 0.0);
+    top: 368px;
+    height: auto;
+    width: 117px;
+    position: absolute;
+    margin: 0;
+    left: 710px;
+    font-family: 'STHeitiSC-Medium', Helvetica, Arial, serif;
+    font-size: 10.0px;
+    color: rgba(52, 52, 52, 1.0);
+    text-align: center;
+    line-height: 10.0px
+  }
+
+  .about .web-developer-netw {
+    background: rgba(255, 255, 255, 0.0);
+    top: 368px;
+    height: auto;
+    width: 117px;
+    position: absolute;
+    margin: 0;
+    left: 837px;
+    font-family: 'STHeitiSC-Medium', Helvetica, Arial, serif;
+    font-size: 10.0px;
+    color: rgba(52, 52, 52, 1.0);
+    text-align: center;
+    line-height: 10.0px
+  }
+
+  .about .label2 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 368px;
+    height: auto;
+    width: 117px;
+    position: absolute;
+    margin: 0;
+    left: 454px;
+    font-family: 'STHeitiSC-Medium', Helvetica, Arial, serif;
+    font-size: 10.0px;
+    color: rgba(52, 52, 52, 1.0);
+    text-align: center;
+    line-height: 10.0px
+  }
+
+  .about .sam-kroeger {
+    background: rgba(255, 255, 255, 0.0);
+    top: 348px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 724px;
+    font-family: 'STHeitiSC-Medium', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(52, 52, 52, 1.0);
+    text-align: center;
+    line-height: 14.0px
+  }
+
+  .about .jack-martin {
+    background: rgba(255, 255, 255, 0.0);
+    top: 348px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 855px;
+    font-family: 'STHeitiSC-Medium', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(52, 52, 52, 1.0);
+    text-align: center;
+    line-height: 14.0px
+  }
+
+  .about .miranda-reese {
+    background: rgba(255, 255, 255, 0.0);
+    top: 348px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 461px;
+    font-family: 'STHeitiSC-Medium', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(52, 52, 52, 1.0);
+    text-align: center;
+    line-height: 14.0px
+  }
+
+  .about .a20171021114513 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 242px;
+    height: 92px;
+    width: 92px;
+    position: absolute;
+    margin: 0;
+    left: 850px
+  }
+
+  .about .a20171021114513 .image8 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 92px;
+    width: 92px;
+    position: relative;
+    margin: 0;
+    left: 0
+  }
+
+  .about .bitmap {
+    background: rgba(255, 255, 255, 0.0);
+    top: 242px;
+    height: 92px;
+    width: 92px;
+    position: absolute;
+    margin: 0;
+    left: 594px
+  }
+
+  .about .bitmap .image9 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 92px;
+    width: 92px;
+    position: relative;
+    margin: 0;
+    left: 0
+  }
+
+  .about .view17 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 242px;
+    height: 92px;
+    width: 92px;
+    position: absolute;
+    margin: 0;
+    left: 722px
+  }
+
+  .about .view17 .image10 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 92px;
+    width: 92px;
+    position: relative;
+    margin: 0;
+    left: 0
+  }
+
+  .about .view18 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 242px;
+    height: 92px;
+    width: 92px;
+    position: absolute;
+    margin: 0;
+    left: 338px
+  }
+
+  .about .view18 .image11 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 92px;
+    width: 92px;
+    position: relative;
+    margin: 0;
+    left: 0
+  }
+
+  .about .headshot-s-reese-miranda-c {
+    background: rgba(255, 255, 255, 0.0);
+    top: 242px;
+    height: 92px;
+    width: 92px;
+    position: absolute;
+    margin: 0;
+    left: 466px
+  }
+
+  .about .headshot-s-reese-miranda-c .image12 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 92px;
+    width: 92px;
+    position: relative;
+    margin: 0;
+    left: 0
+  }
+
+  .about .team-beakr-was-forme {
+    background: rgba(255, 255, 255, 0.0);
+    top: 482px;
+    height: auto;
+    width: 464px;
+    position: absolute;
+    margin: 0;
+    left: 408px;
+    font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+    font-size: 10.0px;
+    color: rgba(52, 52, 52, 1.0);
+    text-align: center;
+    line-height: 10.0px
+  }
+
+  .anima-animate-appear {
+    opacity: 0;
+    display: block;
+    -webkit-animation: anima-reveal .3s ease-in-out 1 normal forwards;
+    -moz-animation: anima-reveal .3s ease-in 1 normal forwards;
+    -o-animation: anima-reveal .3s ease-in-out 1 normal forwards;
+    animation: anima-reveal .3s ease-in-out 1 normal forwards
+  }
+
+  .anima-animate-disappear {
+    opacity: 1;
+    display: block;
+    -webkit-animation: anima-reveal .3s ease-in-out 1 reverse forwards;
+    -moz-animation: anima-reveal .3s ease-in 1 normal forwards;
+    -o-animation: anima-reveal .3s ease-in-out 1 reverse forwards;
+    animation: anima-reveal .3s ease-in-out 1 reverse forwards
+  }
+
+  .anima-animate-nodelay {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+    animation-delay: 0
+  }
+
+  @-webkit-keyframes anima-reveal {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
+
+  @-moz-keyframes anima-reveal {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
+
+  @-o-keyframes anima-reveal {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
+
+  @keyframes anima-reveal {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }

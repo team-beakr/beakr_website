@@ -8,6 +8,8 @@ require("file-loader?name=views/dashboardstudent.html!./views/dashboardstudent.h
 require("file-loader?name=views/search.html!./views/search.html");
 require("file-loader?name=views/request.html!./views/request.html");
 require("file-loader?name=views/message.html!./views/message.html");
+require("file-loader?name=views/dashboardteacher.html!./views/dashboardteacher.html");
+require("file-loader?name=views/teachercreate.html!./views/teachercreate.html");
 import './stylesheets/style.css';
 
 var hello = document.getElementById("hello");

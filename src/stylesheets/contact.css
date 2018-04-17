@@ -1,0 +1,734 @@
+  .contact {
+    width: 100%;
+    min-width: 1280px;
+    height: 100vh;
+    min-height: 850px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    background: rgba(255, 255, 255, 1.0)
+  }
+
+  a {
+    text-decoration: none
+  }
+
+  div {
+    -webkit-text-size-adjust: none
+  }
+
+  .contact .rectangle {
+    background: rgba(52, 52, 52, 1.0);
+    top: 0;
+    height: 56px;
+    width: 1280px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .contact .rectangle5 {
+    background: rgba(126, 210, 33, 1.0);
+    top: 14px;
+    height: 31px;
+    width: 81px;
+    position: absolute;
+    margin: 0;
+    left: 1183px
+  }
+
+  .contact .login {
+    background: rgba(255, 255, 255, 0.0);
+    top: 22px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 1107px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(126, 210, 33, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .contact .group {
+    background: rgba(255, 255, 255, 0.0);
+    top: 7px;
+    height: 40px;
+    width: 142px;
+    position: absolute;
+    margin: 0;
+    left: 13px
+  }
+
+  .contact .group .beakr {
+    background: rgba(255, 255, 255, 0.0);
+    top: 8px;
+    height: 31px;
+    width: 110px;
+    position: absolute;
+    margin: 0;
+    left: 32px
+  }
+
+  .contact .group .beaker-full {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 40px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .contact .group .beaker-full .beaker {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 40px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .contact .group .beaker-full .beaker .combined-shape {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 40px;
+    width: 26px;
+    position: relative;
+    margin: 0;
+    left: 0
+  }
+
+  .contact .group .beaker-full .image1 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 21px;
+    height: 18px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    left: 1px
+  }
+
+  .contact .group .beaker-full .oval4 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 29px;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    margin: 0;
+    left: 7px;
+    border-radius: 4px
+  }
+
+  .contact .group .beaker-full .view1 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 25px;
+    height: 5px;
+    width: 6px;
+    position: absolute;
+    margin: 0;
+    left: 12px;
+    border-radius: 3px
+  }
+
+  .contact .group .beaker-full .view2 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 31px;
+    height: 3px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 16px;
+    border-radius: 1px
+  }
+
+  .contact .sign-up {
+    background: rgba(255, 255, 255, 0.0);
+    top: 22px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 1197px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(74, 73, 74, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .contact .view3 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 15px;
+    height: 31px;
+    width: 81px;
+    position: absolute;
+    margin: 0;
+    left: 1085px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(126, 210, 33, 1.0)
+  }
+
+  .contact .about-the-team {
+    background: rgba(255, 255, 255, 0.0);
+    top: 21px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 815px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(126, 210, 33, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .contact .support {
+    background: rgba(255, 255, 255, 0.0);
+    top: 21px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 963px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(126, 210, 33, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .contact .contact-us {
+    background: rgba(255, 255, 255, 0.0);
+    top: 21px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 689px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(126, 210, 33, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .contact .oval {
+    background: rgba(217, 255, 175, 1.0);
+    top: 439px;
+    height: 76px;
+    width: 74px;
+    position: absolute;
+    margin: 0;
+    left: 40px;
+    border-radius: 37px
+  }
+
+  .contact .view4 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 311px;
+    height: 79px;
+    width: 76px;
+    position: absolute;
+    margin: 0;
+    left: 87px;
+    border-radius: 38px
+  }
+
+  .contact .view5 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 644px;
+    height: 225px;
+    width: 225px;
+    position: absolute;
+    margin: 0;
+    left: 45px;
+    border-radius: 112px
+  }
+
+  .contact .view6 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 412px;
+    height: 42px;
+    width: 41px;
+    position: absolute;
+    margin: 0;
+    left: 159px;
+    border-radius: 20px
+  }
+
+  .contact .view7 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 187px;
+    height: 41px;
+    width: 39px;
+    position: absolute;
+    margin: 0;
+    left: 119px;
+    border-radius: 19px
+  }
+
+  .contact .view8 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 246px;
+    height: 30px;
+    width: 29px;
+    position: absolute;
+    margin: 0;
+    left: 151px;
+    border-radius: 14px
+  }
+
+  .contact .view9 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 140px;
+    height: 17px;
+    width: 16px;
+    position: absolute;
+    margin: 0;
+    left: 163px;
+    border-radius: 8px
+  }
+
+  .contact .view10 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 95px;
+    height: 17px;
+    width: 16px;
+    position: absolute;
+    margin: 0;
+    left: 134px;
+    border-radius: 8px
+  }
+
+  .contact .image2 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 508px;
+    height: 115px;
+    width: 117px;
+    position: absolute;
+    margin: 0;
+    left: 110px
+  }
+
+  .contact .footer {
+    background: rgba(255, 255, 255, 0.0);
+    top: 685px;
+    height: 166px;
+    width: 1280px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .contact .footer .view11 {
+    background: rgba(52, 52, 52, 1.0);
+    top: 0;
+    height: 166px;
+    width: 1280px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .contact .footer .view12 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 48px;
+    height: 34px;
+    width: 117px;
+    position: absolute;
+    margin: 0;
+    left: 501px
+  }
+
+  .contact .footer .view12 .image3 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 6px;
+    height: 27px;
+    width: 91px;
+    position: absolute;
+    margin: 0;
+    left: 26px
+  }
+
+  .contact .footer .view12 .view13 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 34px;
+    width: 22px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .contact .footer .view12 .view13 .view14 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 34px;
+    width: 22px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .contact .footer .view12 .view13 .view14 .image4 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 34px;
+    width: 22px;
+    position: relative;
+    margin: 0;
+    left: 0
+  }
+
+  .contact .footer .view12 .view13 .image5 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 17px;
+    height: 16px;
+    width: 20px;
+    position: absolute;
+    margin: 0;
+    left: 1px
+  }
+
+  .contact .footer .view12 .view13 .view15 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 24px;
+    height: 7px;
+    width: 6px;
+    position: absolute;
+    margin: 0;
+    left: 6px;
+    border-radius: 3px
+  }
+
+  .contact .footer .view12 .view13 .view16 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 20px;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    margin: 0;
+    left: 10px;
+    border-radius: 2px
+  }
+
+  .contact .footer .view12 .view13 .view17 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 25px;
+    height: 3px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 13px;
+    border-radius: 1px
+  }
+
+  .contact .footer .est2017 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 87px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 554px;
+    font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(216, 255, 171, 1.0);
+    text-align: center;
+    line-height: 17.0px
+  }
+
+  .contact .footer .line4 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 19px;
+    height: 116px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 646px
+  }
+
+  .contact .footer .contact-us-about-the {
+    background: rgba(255, 255, 255, 0.0);
+    top: 26px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 668px;
+    font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 18.0px
+  }
+
+  .contact .want-to-bring-beakr {
+    background: rgba(255, 255, 255, 0.0);
+    top: 141px;
+    height: auto;
+    width: 472px;
+    position: absolute;
+    margin: 0;
+    left: 432px;
+    font-family: 'STHeitiSC-Medium', Helvetica, Arial, serif;
+    font-size: 18.0px;
+    color: rgba(123, 212, 0, 1.0);
+    text-align: center;
+    line-height: 19.0px
+  }
+
+  .contact .view18 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 140px;
+    height: 87px;
+    width: 55px;
+    position: absolute;
+    margin: 0;
+    left: 378px
+  }
+
+  .contact .view18 .view19 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 87px;
+    width: 55px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .contact .view18 .view19 .image6 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 87px;
+    width: 55px;
+    position: relative;
+    margin: 0;
+    left: 0
+  }
+
+  .contact .view18 .image7 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 45px;
+    height: 40px;
+    width: 49px;
+    position: absolute;
+    margin: 0;
+    left: 3px
+  }
+
+  .contact .view18 .view20 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 64px;
+    height: 17px;
+    width: 16px;
+    position: absolute;
+    margin: 0;
+    left: 15px;
+    border-radius: 8px
+  }
+
+  .contact .view18 .view21 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 54px;
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    margin: 0;
+    left: 27px;
+    border-radius: 5px
+  }
+
+  .contact .view18 .view22 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 67px;
+    height: 6px;
+    width: 7px;
+    position: absolute;
+    margin: 0;
+    left: 34px;
+    border-radius: 3px
+  }
+
+  .contact .rectangle11 {
+    background: rgba(246, 246, 246, 1.0);
+    top: 308px;
+    height: 216px;
+    width: 548px;
+    position: absolute;
+    margin: 0;
+    left: 366px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(126, 211, 33, 1.0)
+  }
+
+  .contact .view23 {
+    background: rgba(246, 246, 246, 1.0);
+    top: 257px;
+    height: 34px;
+    width: 270px;
+    position: absolute;
+    margin: 0;
+    left: 366px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(126, 211, 33, 1.0)
+  }
+
+  .contact .view24 {
+    background: rgba(246, 246, 246, 1.0);
+    top: 257px;
+    height: 34px;
+    width: 270px;
+    position: absolute;
+    margin: 0;
+    left: 644px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(126, 211, 33, 1.0)
+  }
+
+  .contact .name {
+    background: rgba(255, 255, 255, 0.0);
+    top: 265px;
+    height: auto;
+    width: 53px;
+    position: absolute;
+    margin: 0;
+    left: 371px;
+    font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+    font-size: 9.0px;
+    color: rgba(165, 167, 168, 1.0);
+    text-align: left;
+    letter-spacing: .09px;
+    line-height: 9.0px
+  }
+
+  .contact .email-phone-number {
+    background: rgba(255, 255, 255, 0.0);
+    top: 265px;
+    height: auto;
+    width: 101px;
+    position: absolute;
+    margin: 0;
+    left: 647px;
+    font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+    font-size: 9.0px;
+    color: rgba(165, 167, 168, 1.0);
+    text-align: left;
+    letter-spacing: .09px;
+    line-height: 9.0px
+  }
+
+  .contact .tell-us-about-how-we {
+    background: rgba(255, 255, 255, 0.0);
+    top: 316px;
+    height: auto;
+    width: 167px;
+    position: absolute;
+    margin: 0;
+    left: 371px;
+    font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+    font-size: 9.0px;
+    color: rgba(165, 167, 168, 1.0);
+    text-align: left;
+    letter-spacing: .09px;
+    line-height: 9.0px
+  }
+
+  .contact .rectangle3 {
+    background: rgba(126, 210, 33, 1.0);
+    top: 553px;
+    height: 57px;
+    width: 208px;
+    position: absolute;
+    margin: 0;
+    left: 536px
+  }
+
+  .contact .send {
+    background: rgba(255, 255, 255, 0.0);
+    top: 570px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 616px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 20.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 24.0px
+  }
+
+  .anima-animate-appear {
+    opacity: 0;
+    display: block;
+    -webkit-animation: anima-reveal .3s ease-in-out 1 normal forwards;
+    -moz-animation: anima-reveal .3s ease-in 1 normal forwards;
+    -o-animation: anima-reveal .3s ease-in-out 1 normal forwards;
+    animation: anima-reveal .3s ease-in-out 1 normal forwards
+  }
+
+  .anima-animate-disappear {
+    opacity: 1;
+    display: block;
+    -webkit-animation: anima-reveal .3s ease-in-out 1 reverse forwards;
+    -moz-animation: anima-reveal .3s ease-in 1 normal forwards;
+    -o-animation: anima-reveal .3s ease-in-out 1 reverse forwards;
+    animation: anima-reveal .3s ease-in-out 1 reverse forwards
+  }
+
+  .anima-animate-nodelay {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+    animation-delay: 0
+  }
+
+  @-webkit-keyframes anima-reveal {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
+
+  @-moz-keyframes anima-reveal {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
+
+  @-o-keyframes anima-reveal {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
+
+  @keyframes anima-reveal {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
