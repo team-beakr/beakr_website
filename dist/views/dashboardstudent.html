@@ -1,245 +1,161 @@
 
 <!DOCTYPE html>
-
-<!-- To get the source code upgrade to a Pro plan and Export code https://launchpad.animaapp.com/pricing - Sample Exported Code: https://medium.com/sketch-app-sources/how-to-export-sketch-to-html-65c427b3aa3a -->
-
-
 <html>
-<head>
-  <link rel="shortcut icon" type=image/png href=https://animaapp.s3.amazonaws.com/home/favicon.png>
-  <meta charset=UTF-8>
-  <meta name=viewport content="width=1280px, maximum-scale=1.0">
-  <style>
-
-.dashboard-student-new{width:100%;min-width:1280px;height:100vh;min-height:850px;position:relative;overflow:hidden;margin:0;background:rgba(255,255,255,1.0)}
-a{text-decoration:none}
-div{-webkit-text-size-adjust:none}
-.dashboard-student-new .rectangle{background:rgba(52,52,52,1.0);top:0;height:56px;width:1280px;position:absolute;margin:0;left:0}
-.dashboard-student-new .rectangle5{background:rgba(126,210,33,1.0);top:14px;height:31px;width:81px;position:absolute;margin:0;left:1183px}
-.dashboard-student-new .studentusername{background:rgba(255,255,255,0.0);top:22px;height:auto;width:auto;position:absolute;margin:0;left:1045px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(126,210,33,1.0);text-align:right;line-height:16.0px;text-decoration:underline}
-.dashboard-student-new .logout{background:rgba(255,255,255,0.0);top:22px;height:auto;width:auto;position:absolute;margin:0;left:1200px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:16.0px}
-.dashboard-student-new .about-the-team{background:rgba(255,255,255,0.0);top:21px;height:auto;width:auto;position:absolute;margin:0;left:815px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(126,210,33,1.0);text-align:center;line-height:16.0px}
-.dashboard-student-new .support{background:rgba(255,255,255,0.0);top:21px;height:auto;width:auto;position:absolute;margin:0;left:963px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(126,210,33,1.0);text-align:center;line-height:16.0px}
-.dashboard-student-new .contact-us{background:rgba(255,255,255,0.0);top:21px;height:auto;width:auto;position:absolute;margin:0;left:689px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(126,210,33,1.0);text-align:center;line-height:16.0px}
-.dashboard-student-new .rectangle12{background:rgba(228,228,228,1.0);top:55px;height:56px;width:1280px;position:absolute;margin:0;left:0}
-.dashboard-student-new .view1{background:rgba(185,185,185,1.0);top:55px;height:56px;width:142px;position:absolute;margin:0;left:0}
-.dashboard-student-new .view2{background:rgba(228,228,228,1.0);top:55px;height:56px;width:142px;position:absolute;margin:0;left:142px}
-.dashboard-student-new .view3{background:rgba(228,228,228,1.0);top:55px;height:56px;width:142px;position:absolute;margin:0;left:284px}
-.dashboard-student-new .view4{background:rgba(228,228,228,1.0);top:55px;height:56px;width:142px;position:absolute;margin:0;left:426px}
-.dashboard-student-new .search{background:rgba(255,255,255,0.0);top:75px;height:auto;width:auto;position:absolute;margin:0;left:190px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:16.0px}
-.dashboard-student-new .requests{background:rgba(255,255,255,0.0);top:75px;height:auto;width:auto;position:absolute;margin:0;left:324px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:16.0px}
-.dashboard-student-new .messages{background:rgba(255,255,255,0.0);top:75px;height:auto;width:auto;position:absolute;margin:0;left:464px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:16.0px}
-.dashboard-student-new .dashboard{background:rgba(255,255,255,0.0);top:75px;height:auto;width:auto;position:absolute;margin:0;left:36px;font-family:'HelveticaNeue',Helvetica,Arial,serif;font-size:14.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:16.0px}
-.dashboard-student-new .group{background:rgba(255,255,255,0.0);top:7px;height:40px;width:142px;position:absolute;margin:0;left:13px}
-.dashboard-student-new .group .beakr{background:rgba(255,255,255,0.0);top:8px;height:31px;width:110px;position:absolute;margin:0;left:32px}
-.dashboard-student-new .group .beaker-full{background:rgba(255,255,255,0.0);top:0;height:40px;width:26px;position:absolute;margin:0;left:0}
-.dashboard-student-new .group .beaker-full .beaker{background:rgba(255,255,255,0.0);top:0;height:40px;width:26px;position:absolute;margin:0;left:0}
-.dashboard-student-new .group .beaker-full .beaker .combined-shape{background:rgba(255,255,255,0.0);top:0;height:40px;width:26px;position:relative;margin:0;left:0}
-.dashboard-student-new .group .beaker-full .image1{background:rgba(255,255,255,0.0);top:21px;height:18px;width:24px;position:absolute;margin:0;left:1px}
-.dashboard-student-new .group .beaker-full .oval4{background:rgba(217,255,175,1.0);top:29px;height:8px;width:8px;position:absolute;margin:0;left:7px;border-radius:4px}
-.dashboard-student-new .group .beaker-full .view5{background:rgba(217,255,175,1.0);top:25px;height:5px;width:6px;position:absolute;margin:0;left:12px;border-radius:3px}
-.dashboard-student-new .group .beaker-full .view6{background:rgba(217,255,175,1.0);top:31px;height:3px;width:3px;position:absolute;margin:0;left:16px;border-radius:1px}
-.dashboard-student-new .group2{background:rgba(255,255,255,0.0);top:242px;height:467px;width:135px;position:absolute;margin:0;left:923px}
-.dashboard-student-new .group2 .oval{background:rgba(217,255,175,1.0);top:391px;height:76px;width:74px;position:absolute;margin:0;left:0;border-radius:37px}
-.dashboard-student-new .group2 .view7{background:rgba(217,255,175,1.0);top:229px;height:79px;width:76px;position:absolute;margin:0;left:22px;border-radius:38px}
-.dashboard-student-new .group2 .view8{background:rgba(217,255,175,1.0);top:330px;height:42px;width:41px;position:absolute;margin:0;left:94px;border-radius:20px}
-.dashboard-student-new .group2 .view9{background:rgba(217,255,175,1.0);top:105px;height:41px;width:39px;position:absolute;margin:0;left:54px;border-radius:19px}
-.dashboard-student-new .group2 .view10{background:rgba(217,255,175,1.0);top:164px;height:30px;width:29px;position:absolute;margin:0;left:86px;border-radius:14px}
-.dashboard-student-new .group2 .view11{background:rgba(217,255,175,1.0);top:58px;height:17px;width:16px;position:absolute;margin:0;left:98px;border-radius:8px}
-.dashboard-student-new .group2 .view12{background:rgba(217,255,175,1.0);top:0;height:17px;width:16px;position:absolute;margin:0;left:90px;border-radius:8px}
-.dashboard-student-new .footer{background:rgba(255,255,255,0.0);top:685px;height:166px;width:1280px;position:absolute;margin:0;left:0}
-.dashboard-student-new .footer .view13{background:rgba(52,52,52,1.0);top:0;height:166px;width:1280px;position:absolute;margin:0;left:0}
-.dashboard-student-new .footer .view14{background:rgba(255,255,255,0.0);top:48px;height:34px;width:117px;position:absolute;margin:0;left:501px}
-.dashboard-student-new .footer .view14 .image2{background:rgba(255,255,255,0.0);top:6px;height:27px;width:91px;position:absolute;margin:0;left:26px}
-.dashboard-student-new .footer .view14 .view15{background:rgba(255,255,255,0.0);top:0;height:34px;width:22px;position:absolute;margin:0;left:0}
-.dashboard-student-new .footer .view14 .view15 .view16{background:rgba(255,255,255,0.0);top:0;height:34px;width:22px;position:absolute;margin:0;left:0}
-.dashboard-student-new .footer .view14 .view15 .view16 .image3{background:rgba(255,255,255,0.0);top:0;height:34px;width:22px;position:relative;margin:0;left:0}
-.dashboard-student-new .footer .view14 .view15 .image4{background:rgba(255,255,255,0.0);top:17px;height:16px;width:20px;position:absolute;margin:0;left:1px}
-.dashboard-student-new .footer .view14 .view15 .view17{background:rgba(217,255,175,1.0);top:24px;height:7px;width:6px;position:absolute;margin:0;left:6px;border-radius:3px}
-.dashboard-student-new .footer .view14 .view15 .view18{background:rgba(217,255,175,1.0);top:20px;height:5px;width:5px;position:absolute;margin:0;left:10px;border-radius:2px}
-.dashboard-student-new .footer .view14 .view15 .view19{background:rgba(217,255,175,1.0);top:25px;height:3px;width:3px;position:absolute;margin:0;left:13px;border-radius:1px}
-.dashboard-student-new .footer .est2017{background:rgba(255,255,255,0.0);top:87px;height:auto;width:auto;position:absolute;margin:0;left:554px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:14.0px;color:rgba(216,255,171,1.0);text-align:center;line-height:17.0px}
-.dashboard-student-new .footer .line4{background:rgba(255,255,255,0.0);top:19px;height:116px;width:3px;position:absolute;margin:0;left:646px}
-.dashboard-student-new .footer .contact-us-about-the{background:rgba(255,255,255,0.0);top:26px;height:auto;width:auto;position:absolute;margin:0;left:668px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:16.0px;color:rgba(255,255,255,1.0);text-align:left;line-height:18.0px}
-.dashboard-student-new .welcome-miranda{background:rgba(255,255,255,0.0);top:127px;height:auto;width:auto;position:absolute;margin:0;left:29px;font-family:'HelveticaNeue-Bold',Helvetica,Arial,serif;font-size:18.0px;color:rgba(123,212,0,1.0);text-align:left;line-height:23.0px}
-.dashboard-student-new .rectangle13{background:rgba(255,255,255,0.0);top:161px;height:503px;width:215px;position:absolute;margin:0;left:25px}
-.dashboard-student-new .research-opportuniti{background:rgba(255,255,255,0.0);top:172px;height:auto;width:175px;position:absolute;margin:0;left:45px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:12.0px;color:rgba(0,0,0,1.0);text-align:left;line-height:15.0px}
-.dashboard-student-new .image5{background:rgba(255,255,255,0.0);top:161px;height:503px;width:215px;position:absolute;margin:0;left:1043px}
-.dashboard-student-new .rectangle14{background:rgba(255,255,255,0.0);top:163px;height:102px;width:730px;position:absolute;margin:0;left:276px;border-style:solid;border-width:2px;border-color:rgba(126,210,33,1.0)}
-.dashboard-student-new .view20{background:rgba(255,255,255,0.0);top:289px;height:369px;width:730px;position:absolute;margin:0;left:277px;border-style:solid;border-width:1px;border-color:rgba(215,215,215,1.0)}
-.dashboard-student-new .looks-like-youre-a{background:rgba(255,255,255,0.0);top:181px;height:56px;width:635px;position:absolute;margin:0;left:355px}
-.dashboard-student-new .group3{background:rgba(255,255,255,0.0);top:173px;height:44px;width:44px;position:absolute;margin:0;left:290px}
-.dashboard-student-new .group3 .oval5{background:rgba(126,210,33,1.0);top:0;height:44px;width:44px;position:absolute;margin:0;left:0;border-radius:22px}
-.dashboard-student-new .group3 .label1{background:rgba(255,255,255,0.0);top:1px;height:auto;width:13px;position:absolute;margin:0;left:18px;font-family:'HelveticaNeue-Bold',Helvetica,Arial,serif;font-size:34.0px;color:rgba(254,255,254,1.0);text-align:left;line-height:41.0px}
-.dashboard-student-new .sure{background:rgba(255,255,255,0.0);top:225px;height:auto;width:auto;position:absolute;margin:0;left:935px;font-family:'HelveticaNeue-Bold',Helvetica,Arial,serif;font-size:20.0px;color:rgba(123,212,0,1.0);text-align:left;line-height:25.0px}
-.dashboard-student-new .no-thanks{background:rgba(255,255,255,0.0);top:230px;height:auto;width:auto;position:absolute;margin:0;left:846px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:16.0px;color:rgba(154,154,155,1.0);text-align:left;line-height:18.0px}
-.dashboard-student-new .updates{background:rgba(255,255,255,0.0);top:299px;height:auto;width:auto;position:absolute;margin:0;left:611px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:16.0px;color:rgba(0,0,0,1.0);text-align:left;line-height:18.0px}
-.dashboard-student-new .profile{background:rgba(255,255,255,0.0);top:174px;height:auto;width:auto;position:absolute;margin:0;left:1129px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:16.0px;color:rgba(0,0,0,1.0);text-align:left;line-height:18.0px}
-.dashboard-student-new .rectangle15{background:rgba(255,255,255,1.0);top:217px;height:175px;width:175px;position:absolute;margin:0;left:45px}
-.dashboard-student-new .uh-oh-update-your-i{background:rgba(255,255,255,0.0);top:233px;height:auto;width:128px;position:absolute;margin:0;left:69px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:12.0px;color:rgba(78,78,78,1.0);text-align:left;line-height:15.0px}
-.dashboard-student-new .update-picture{background:rgba(255,255,255,0.0);top:353px;height:auto;width:75px;position:absolute;margin:0;left:1113px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:10.0px;color:rgba(74,73,74,1.0);text-align:left;line-height:12.0px}
-.dashboard-student-new .update-interests-vie{background:rgba(255,255,255,0.0);top:392px;height:auto;width:175px;position:absolute;margin:0;left:1063px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:16.0px;color:rgba(74,73,74,1.0);text-align:center;line-height:18.0px}
-.dashboard-student-new .get-started{background:rgba(255,255,255,0.0);top:353px;height:auto;width:auto;position:absolute;margin:0;left:104px;font-family:'HelveticaNeue-Bold',Helvetica,Arial,serif;font-size:14.0px;color:rgba(126,210,33,1.0);text-align:center;line-height:17.0px}
-.dashboard-student-new .december3-you-joine{background:rgba(255,255,255,0.0);top:330px;height:auto;width:671px;position:absolute;margin:0;left:307px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:14.0px;color:rgba(154,154,155,1.0);text-align:left;line-height:17.0px}
-.dashboard-student-new .line{background:rgba(255,255,255,0.0);top:413px;height:3px;width:669px;position:absolute;margin:0;left:308px}
-.dashboard-student-new .label2{background:rgba(255,255,255,0.0);top:387px;height:auto;width:99px;position:absolute;margin:0;left:876px;font-family:'HelveticaNeue-Light',Helvetica,Arial,serif;font-size:14.0px;color:rgba(126,210,33,1.0);text-align:right;line-height:17.0px}
-.dashboard-student-new .view21{background:rgba(255,255,255,0.0);top:202px;height:141px;width:141px;position:absolute;margin:0;left:1080px}
-.dashboard-student-new .view21 .image6{background:rgba(255,255,255,0.0);top:0;height:141px;width:141px;position:relative;margin:0;left:0}
-.anima-animate-appear{opacity:0;display:block;-webkit-animation:anima-reveal .3s ease-in-out 1 normal forwards;-moz-animation:anima-reveal .3s ease-in 1 normal forwards;-o-animation:anima-reveal .3s ease-in-out 1 normal forwards;animation:anima-reveal .3s ease-in-out 1 normal forwards}
-.anima-animate-disappear{opacity:1;display:block;-webkit-animation:anima-reveal .3s ease-in-out 1 reverse forwards;-moz-animation:anima-reveal .3s ease-in 1 normal forwards;-o-animation:anima-reveal .3s ease-in-out 1 reverse forwards;animation:anima-reveal .3s ease-in-out 1 reverse forwards}
-.anima-animate-nodelay{-webkit-animation-delay:0;-moz-animation-delay:0;-o-animation-delay:0;animation-delay:0}
-@-webkit-keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
-@-moz-keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
-@-o-keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
-@keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
-    </style>
+  <head>
+    <link rel="shortcut icon" type=image/png href=https://animaapp.s3.amazonaws.com/home/favicon.png>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=1280px, maximum-scale=1.0">
     <meta name=author content="Launchpad by Anima">
   </head>
-    <body style="margin: 0; background: rgba(255, 255, 255, 1.0);">
-      <input type=hidden id=anPageName name=page value=dashboardstudentnew>
+  <body style="margin: 0; background: rgba(255, 255, 255, 1.0);">
+    <input type=hidden id=anPageName name=page value=dashboardstudentnew>
       <div class=dashboard-student-new>
         <div style="width: 1280px; height: 100%; position:relative; margin:auto;">
           <div class=rectangle>
             <input type=text name=trapit value style=display:none;>
           </div>
-            <div class=rectangle5>
+          <div class=rectangle5>
+            <input type=text name=trapit value style=display:none;>
+          </div>
+          <div class=studentusername>studentusername</div>
+          <div class=logout>Logout</div>
+          <div class=about-the-team>About the Team</div>
+          <div class=support>Support</div>
+          <div class=contact-us>Contact Us</div>
+          <div class=rectangle12>
+            <input type=text name=trapit value style=display:none;>
+          </div>
+          <div class=view1>
+            <input type=text name=trapit value style=display:none;>
+          </div>
+          <a href=search>
+            <div class=view2>
               <input type=text name=trapit value style=display:none;>
             </div>
-              <div class=studentusername>studentusername</div>
-              <div class=logout>Logout</div>
-              <div class=about-the-team>About the Team</div>
-              <div class=support>Support</div>
-              <div class=contact-us>Contact Us</div>
-              <div class=rectangle12>
+          </a>
+          <div class=view3>
+            <input type=text name=trapit value style=display:none;>
+          </div>
+          <div class=view4>
+            <input type=text name=trapit value style=display:none;>
+          </div>
+          <div class=search>Search</div>
+          <div class=requests>Requests</div>
+          <div class=messages>Messages</div>
+          <div class=dashboard>Dashboard</div>
+          <div class=group>
+            <input type=text name=trapit value style=display:none;>
+            <img class=beakr src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/sign up pagebeakr.png">
+            <div class=beaker-full>
+              <input type=text name=trapit value style=display:none;>
+              <div class=beaker>
+                <input type=text name=trapit value style=display:none;>
+                <img class=combined-shape src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/sign up pagecombined shape.png"></div>
+                <img class=image1 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/dashboard student  newcombined shape  1.png">
+                <div class=oval4>
+                  <input type=text name=trapit value style=display:none;>
+                </div>
+                <div class=view5>
+                  <input type=text name=trapit value style=display:none;>
+                </div>
+                <div class=view6>
+                  <input type=text name=trapit value style=display:none;>
+                </div>
+            </div>
+          </div>
+          <div class=group2>
+            <input type=text name=trapit value style=display:none;>
+              <div class=oval>
                 <input type=text name=trapit value style=display:none;>
               </div>
-                <div class=view1><input type=text name=trapit value style=display:none;></div>
-                <a href=search>
-                  <div class=view2>
+              <div class=view7>
+                <input type=text name=trapit value style=display:none;>
+              </div>
+              <div class=view8>
+                <input type=text name=trapit value style=display:none;>
+              </div>
+              <div class=view9>
+                <input type=text name=trapit value style=display:none;>
+              </div>
+              <div class=view10>
+                <input type=text name=trapit value style=display:none;>
+              </div>
+              <div class=view11>
+                <input type=text name=trapit value style=display:none;>
+              </div>
+              <div class=view12>
+                <input type=text name=trapit value style=display:none;>
+              </div>
+            </div>
+            <div class=footer>
+              <input type=text name=trapit value style=display:none;>
+              <div class=view13>
+                <input type=text name=trapit value style=display:none;>
+              </div>
+              <div class=view14>
+                <input type=text name=trapit value style=display:none;>
+                <img class=image2 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/search student beakr  1.png">
+                <div class=view15>
+                  <input type=text name=trapit value style=display:none;>
+                  <div class=view16>
+                    <input type=text name=trapit value style=display:none;>
+                    <img class=image3 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagecombined shape  2.png">
+                  </div>
+                  <img class=image4 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagecombined shape  3.png">
+                  <div class=view17>
                     <input type=text name=trapit value style=display:none;>
                   </div>
-                  </a>
-                  <div class=view3>
+                  <div class=view18>
                     <input type=text name=trapit value style=display:none;>
                   </div>
-                    <div class=view4>
-                      <input type=text name=trapit value style=display:none;>
-                    </div>
-                      <div class=search>Search</div>
-                      <div class=requests>Requests</div>
-                      <div class=messages>Messages</div>
-                      <div class=dashboard>Dashboard</div>
-                      <div class=group>
-                        <input type=text name=trapit value style=display:none;>
-                        <img class=beakr src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/sign up pagebeakr.png">
-                        <div class=beaker-full>
-                          <input type=text name=trapit value style=display:none;>
-                          <div class=beaker>
-                            <input type=text name=trapit value style=display:none;>
-                            <img class=combined-shape src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/sign up pagecombined shape.png"></div>
-                            <img class=image1 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/dashboard student  newcombined shape  1.png">
-                            <div class=oval4>
-                              <input type=text name=trapit value style=display:none;>
-                            </div>
-                              <div class=view5>
-                                <input type=text name=trapit value style=display:none;>
-                              </div>
-                                <div class=view6>
-                                  <input type=text name=trapit value style=display:none;>
-                                </div>
-                                </div>
-                              </div>
-                              <div class=group2>
-                                <input type=text name=trapit value style=display:none;>
-                                <div class=oval>
-                                  <input type=text name=trapit value style=display:none;>
-                                </div>
-                                  <div class=view7>
-                                    <input type=text name=trapit value style=display:none;>
-                                  </div>
-                                    <div class=view8>
-                                      <input type=text name=trapit value style=display:none;>
-                                    </div>
-                                      <div class=view9>
-                                        <input type=text name=trapit value style=display:none;>
-                                      </div>
-                                        <div class=view10>
-                                          <input type=text name=trapit value style=display:none;>
-                                        </div>
-                                          <div class=view11>
-                                            <input type=text name=trapit value style=display:none;>
-                                          </div>
-                                            <div class=view12>
-                                              <input type=text name=trapit value style=display:none;>
-                                            </div>
-                                            </div>
-                                            <div class=footer>
-                                              <input type=text name=trapit value style=display:none;>
-                                              <div class=view13>
-                                                <input type=text name=trapit value style=display:none;>
-                                              </div>
-                                                <div class=view14>
-                                                  <input type=text name=trapit value style=display:none;>
-                                                  <img class=image2 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/search student beakr  1.png">
-                                                  <div class=view15>
-                                                    <input type=text name=trapit value style=display:none;>
-                                                    <div class=view16>
-                                                      <input type=text name=trapit value style=display:none;>
-                                                      <img class=image3 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagecombined shape  2.png">
-                                                    </div>
-                                                      <img class=image4 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/landing pagecombined shape  3.png">
-                                                      <div class=view17>
-                                                        <input type=text name=trapit value style=display:none;>
-                                                      </div>
-                                                        <div class=view18>
-                                                          <input type=text name=trapit value style=display:none;>
-                                                        </div>
-                                                          <div class=view19>
-                                                            <input type=text name=trapit value style=display:none;>
-                                                          </div>
-                                                          </div>
-                                                        </div>
-                                                        <div class=est2017>est. 2017</div>
-                                                        <img class=line4 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/sign up pageline 4.png">
-                                                        <div class=contact-us-about-the>Contact Us<br><br>About the Team<br><br>Support<br></div>
-                                                      </div>
-                                                      <div class=welcome-miranda>Welcome, Miranda!</div>
-                                                      <img class=rectangle13 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/dashboard student  newrectangle 13  1.png">
-                                                      <div class=research-opportuniti>Research Opportunities we thought you might like…</div>
-                                                      <img class=image5 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/dashboard student  newrectangle 13  1.png">
-                                                      <div class=rectangle14>
-                                                        <input type=text name=trapit value style=display:none;></div>
-                                                        <div class=view20><input type=text name=trapit value style=display:none;></div>
-                                                        <img class=looks-like-youre-a src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/dashboard student  newlooks like youre a.png">
-                                                        <div class=group3>
-                                                          <input type=text name=trapit value style=display:none;>
-                                                          <div class=oval5>
-                                                            <input type=text name=trapit value style=display:none;></div>
-                                                            <div class=label1>!</div>
-                                                          </div>
-                                                          <div class=sure>Sure!</div>
-                                                          <div class=no-thanks>No thanks.</div>
-                                                            <div class=updates>Updates</div>
-                                                            <div class=profile>Profile</div>
-                                                            <div class=rectangle15>
-                                                              <input type=text name=trapit value style=display:none;>
-                                                            </div>
-                                                              <div class=uh-oh-update-your-i>Uh oh!<br><br>Update your interests questionnaire first, and we’ll be able to start matching you right away.</div>
-                                                              <div class=update-picture>+ Update Picture</div>
-                                                              <div class=update-interests-vie>Update Interests<br><br>View Resume<br><br>Notifications<br><br>Sign In/ Security<br><br>Change Settings</div>
-                                                              <div class=get-started>Get Started &gt;</div>
-                                                              <div class=december3-you-joine>December 3<br><br>You joined beaker. Make sure to update your settings, upload a resume, and take our interest questionnaire!</div><img class=line src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/dashboard student  newline.png">
-                                                              <div class=label2>Get Started &gt;</div>
-                                                              <div class=view21>
-                                                                <input type=text name=trapit value style=display:none;>
-                                                                <img class=image6 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/dashboard student  new group.png"></div>
-                                                              </div>
-                                                            </div>
-                                                            <script>anima_isHidden=function(e){if(!(e instanceof HTMLElement))return!1;if(getComputedStyle(e).display=="none")return!0;else if(e.parentNode&&anima_isHidden(e.parentNode))return!0;return!1};anima_loadAsyncSrcForTag=function(tag){var elements=document.getElementsByTagName(tag);var toLoad=[];for(var i=0;i<elements.length;i++){var e=elements[i];var src=e.getAttribute("src");var loaded=(src!=undefined&&src.length>0&&src!='data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');if(loaded)continue;var asyncSrc=e.getAttribute("anima-src");if(asyncSrc==undefined||asyncSrc.length==0)continue;if(anima_isHidden(e))continue;toLoad.push(e)}
-                                                              toLoad.sort(function(a,b){return anima_getTop(a)-anima_getTop(b)});for(var i=0;i<toLoad.length;i++){var e=toLoad[i];var asyncSrc=e.getAttribute("anima-src");e.setAttribute("src",asyncSrc)}};anima_pauseHiddenVideos=function(tag){var elements=document.getElementsByTagName("video");for(var i=0;i<elements.length;i++){var e=elements[i];var isPlaying=!!(e.currentTime>0&&!e.paused&&!e.ended&&e.readyState>2);var isHidden=anima_isHidden(e);if(!isPlaying&&!isHidden&&e.getAttribute("autoplay")=="autoplay"){e.play()}
-                                                              else if(isPlaying&&isHidden){e.pause()}}};anima_loadAsyncSrc=function(tag){anima_loadAsyncSrcForTag("img");anima_loadAsyncSrcForTag("iframe");anima_loadAsyncSrcForTag("video");anima_pauseHiddenVideos()};var anima_getTop=function(e){var top=0;do{top+=e.offsetTop||0;e=e.offsetParent}while(e);return top};anima_loadAsyncSrc();anima_old_onResize=window.onresize;anima_new_onResize=undefined;anima_updateOnResize=function(){if(anima_new_onResize==undefined||window.onresize!=anima_new_onResize){anima_new_onResize=function(x){if(anima_old_onResize!=undefined)anima_old_onResize(x);anima_loadAsyncSrc()}
-                                                              window.onresize=anima_new_onResize;setTimeout(function(){anima_updateOnResize()},3000)}};anima_updateOnResize();setTimeout(function(){anima_loadAsyncSrc()},200)
-                                                            </script>
-                                                            <script src=launchpad-js/launchpad-banner.js async></script>
-                                                          </body>
-                                                      </html>
+                  <div class=view19>
+                    <input type=text name=trapit value style=display:none;>
+                  </div>
+                </div>
+              </div>
+              <div class=est2017>est. 2017</div>
+              <img class=line4 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/sign up pageline 4.png">
+              <div class=contact-us-about-the>Contact Us<br><br>About the Team<br><br>Support<br></div>
+            </div>
+            <div class=welcome-miranda>Welcome, Miranda!</div>
+            <img class=rectangle13 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/dashboard student  newrectangle 13  1.png">
+            <div class=research-opportuniti>Research Opportunities we thought you might like…</div>
+            <img class=image5 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/dashboard student  newrectangle 13  1.png">
+            <div class=rectangle14>
+              <input type=text name=trapit value style=display:none;></div>
+              <div class=view20><input type=text name=trapit value style=display:none;></div>
+              <img class=looks-like-youre-a src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/dashboard student  newlooks like youre a.png">
+              <div class=group3>
+                <input type=text name=trapit value style=display:none;>
+                <div class=oval5><input type=text name=trapit value style=display:none;></div>
+                <div class=label1>!</div>
+              </div>
+              <div class=sure>Sure!</div>
+              <div class=no-thanks>No thanks.</div>
+              <div class=updates>Updates</div>
+              <div class=profile>Profile</div>
+              <div class=rectangle15>
+                <input type=text name=trapit value style=display:none;>
+              </div>
+              <div class=uh-oh-update-your-i>Uh oh!<br><br>Update your interests questionnaire first, and we’ll be able to start matching you right away.</div>
+              <div class=update-picture>+ Update Picture</div>
+              <div class=update-interests-vie>Update Interests<br><br>View Resume<br><br>Notifications<br><br>Sign In/ Security<br><br>Change Settings</div>
+              <div class=get-started>Get Started &gt;</div>
+              <div class=december3-you-joine>December 3<br><br>You joined beaker. Make sure to update your settings, upload a resume, and take our interest questionnaire!</div><img class=line src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/dashboard student  newline.png">
+              <div class=label2>Get Started &gt;</div>
+              <div class=view21>
+                <input type=text name=trapit value style=display:none;>
+                <img class=image6 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5a95a11f9d633a000da9c9e2/5a9d8d1c2a2ecb000b023426/5a9d8d1e2a2ecb000c4ffe01/img/dashboard student  new group.png"></div>
+            </div>
+          </div>
+          <script>anima_isHidden=function(e){if(!(e instanceof HTMLElement))return!1;
+            if(getComputedStyle(e).display=="none")return!0;else if(e.parentNode&&anima_isHidden(e.parentNode))return!0;return!1};anima_loadAsyncSrcForTag=function(tag){var elements=document.getElementsByTagName(tag);var toLoad=[];for(var i=0;i<elements.length;i++){
+            var e=elements[i];var src=e.getAttribute("src");var  loaded=(src!=undefined&&src.length>0&&src!='data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');if(loaded)continue;var asyncSrc=e.getAttribute("anima-src");if(asyncSrc==undefined||asyncSrc.length==0)continue;if(anima_isHidden(e))continue;toLoad.push(e)}
+            toLoad.sort(function(a,b){return anima_getTop(a)-anima_getTop(b)});for(var i=0;i<toLoad.length;i++){var e=toLoad[i];var asyncSrc=e.getAttribute("anima-src");e.setAttribute("src",asyncSrc)}};anima_pauseHiddenVideos=function(tag){var elements=document.getElementsByTagName("video");for(var i=0;i<elements.length;i++){var e=elements[i];var isPlaying=!!(e.currentTime>0&&!e.paused&&!e.ended&&e.readyState>2);var isHidden=anima_isHidden(e);if(!isPlaying&&!isHidden&&e.getAttribute("autoplay")=="autoplay"){e.play()}
+            else if(isPlaying&&isHidden){e.pause()}}};anima_loadAsyncSrc=function(tag){anima_loadAsyncSrcForTag("img");anima_loadAsyncSrcForTag("iframe");anima_loadAsyncSrcForTag("video");anima_pauseHiddenVideos()};var anima_getTop=function(e){var top=0;do{top+=e.offsetTop||0;e=e.offsetParent}while(e);return top};anima_loadAsyncSrc();anima_old_onResize=window.onresize;anima_new_onResize=undefined;anima_updateOnResize=function(){if(anima_new_onResize==undefined||window.onresize!=anima_new_onResize){anima_new_onResize=function(x){if(anima_old_onResize!=undefined)anima_old_onResize(x);anima_loadAsyncSrc()}
+            window.onresize=anima_new_onResize;setTimeout(function(){anima_updateOnResize()},3000)}};anima_updateOnResize();setTimeout(function(){anima_loadAsyncSrc()},200)
+          </script>
+          <script src=launchpad-js/launchpad-banner.js async></script>
+          <script src="/main.js"></script>
+  </body>
+</html>
