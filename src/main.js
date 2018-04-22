@@ -11,6 +11,3 @@ require("file-loader?name=views/message.html!./views/message.html");
 require("file-loader?name=views/dashboardteacher.html!./views/dashboardteacher.html");
 require("file-loader?name=views/teachercreate.html!./views/teachercreate.html");
 import './stylesheets/style.css';
-
-var hello = document.getElementById("hello");
-hello.innerHTML = "Hello World!";
