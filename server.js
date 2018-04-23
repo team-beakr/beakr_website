@@ -66,6 +66,13 @@ app.get('/message(.html)?$', function (req, res) {
   res.sendFile(path.join(DIST_DIR, "/views/message.html"));
 });
 
+app.get('/dashboardteacher(.html)?$', function (req, res) {
+  res.sendFile(path.join(DIST_DIR, "/views/dashboardteacher.html"));
+});
+
+app.get('/teachercreate(.html)?$', function (req, res) {
+  res.sendFile(path.join(DIST_DIR, "/views/teachercreate.html"));
+});
 
 /*
   ERROR CATCHING
