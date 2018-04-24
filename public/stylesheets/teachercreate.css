@@ -1,0 +1,929 @@
+  .create-teacher {
+    width: 100%;
+    min-width: 1280px;
+    height: 100vh;
+    min-height: 961px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    background: rgba(255, 255, 255, 1.0)
+  }
+
+  a {
+    text-decoration: none
+  }
+
+  div {
+    -webkit-text-size-adjust: none
+  }
+
+  .create-teacher .rectangle {
+    background: rgba(52, 52, 52, 1.0);
+    top: 0;
+    height: 56px;
+    width: 1280px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .create-teacher .rectangle5 {
+    background: rgba(126, 210, 33, 1.0);
+    top: 14px;
+    height: 31px;
+    width: 81px;
+    position: absolute;
+    margin: 0;
+    left: 1183px
+  }
+
+  .create-teacher .group2 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 95px;
+    height: 774px;
+    width: 230px;
+    position: absolute;
+    margin: 0;
+    left: 40px
+  }
+
+  .create-teacher .group2 .oval {
+    background: rgba(217, 255, 175, 1.0);
+    top: 344px;
+    height: 76px;
+    width: 74px;
+    position: absolute;
+    margin: 0;
+    left: 0;
+    border-radius: 37px
+  }
+
+  .create-teacher .group2 .view1 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 216px;
+    height: 79px;
+    width: 76px;
+    position: absolute;
+    margin: 0;
+    left: 47px;
+    border-radius: 38px
+  }
+
+  .create-teacher .group2 .view2 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 549px;
+    height: 225px;
+    width: 225px;
+    position: absolute;
+    margin: 0;
+    left: 5px;
+    border-radius: 112px
+  }
+
+  .create-teacher .group2 .view3 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 317px;
+    height: 42px;
+    width: 41px;
+    position: absolute;
+    margin: 0;
+    left: 119px;
+    border-radius: 20px
+  }
+
+  .create-teacher .group2 .view4 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 92px;
+    height: 41px;
+    width: 39px;
+    position: absolute;
+    margin: 0;
+    left: 79px;
+    border-radius: 19px
+  }
+
+  .create-teacher .group2 .view5 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 151px;
+    height: 30px;
+    width: 29px;
+    position: absolute;
+    margin: 0;
+    left: 111px;
+    border-radius: 14px
+  }
+
+  .create-teacher .group2 .view6 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 45px;
+    height: 17px;
+    width: 16px;
+    position: absolute;
+    margin: 0;
+    left: 123px;
+    border-radius: 8px
+  }
+
+  .create-teacher .group2 .view7 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 0;
+    height: 17px;
+    width: 16px;
+    position: absolute;
+    margin: 0;
+    left: 94px;
+    border-radius: 8px
+  }
+
+  .create-teacher .group2 .image1 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 413px;
+    height: 115px;
+    width: 117px;
+    position: absolute;
+    margin: 0;
+    left: 70px
+  }
+
+  .create-teacher .studentusername {
+    background: rgba(255, 255, 255, 0.0);
+    top: 22px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 1045px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(126, 210, 33, 1.0);
+    text-align: right;
+    line-height: 16.0px;
+    text-decoration: underline
+  }
+
+  .create-teacher .logout {
+    background: rgba(255, 255, 255, 0.0);
+    top: 22px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 1201px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(74, 73, 74, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .create-teacher .about-the-team {
+    background: rgba(255, 255, 255, 0.0);
+    top: 21px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 815px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(126, 210, 33, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .create-teacher .support {
+    background: rgba(255, 255, 255, 0.0);
+    top: 21px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 964px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(126, 210, 33, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .create-teacher .contact-us {
+    background: rgba(255, 255, 255, 0.0);
+    top: 21px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 690px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(126, 210, 33, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .create-teacher .rectangle12 {
+    background: rgba(228, 228, 228, 1.0);
+    top: 55px;
+    height: 56px;
+    width: 1280px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .create-teacher .view8 {
+    background: rgba(228, 228, 228, 1.0);
+    top: 55px;
+    height: 56px;
+    width: 142px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .create-teacher .view9 {
+    background: rgba(228, 228, 228, 1.0);
+    top: 55px;
+    height: 56px;
+    width: 142px;
+    position: absolute;
+    margin: 0;
+    left: 284px
+  }
+
+  .create-teacher .view10 {
+    background: rgba(228, 228, 228, 1.0);
+    top: 55px;
+    height: 56px;
+    width: 142px;
+    position: absolute;
+    margin: 0;
+    left: 426px
+  }
+
+  .create-teacher .view11 {
+    background: rgba(185, 185, 185, 1.0);
+    top: 55px;
+    height: 56px;
+    width: 142px;
+    position: absolute;
+    margin: 0;
+    left: 142px
+  }
+
+  .create-teacher .create {
+    background: rgba(255, 255, 255, 0.0);
+    top: 75px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 191px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(74, 73, 74, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .create-teacher .requests {
+    background: rgba(255, 255, 255, 0.0);
+    top: 75px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 324px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(74, 73, 74, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .create-teacher .messages {
+    background: rgba(255, 255, 255, 0.0);
+    top: 75px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 464px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(74, 73, 74, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .create-teacher .dashboard {
+    background: rgba(255, 255, 255, 0.0);
+    top: 75px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 36px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(74, 73, 74, 1.0);
+    text-align: center;
+    line-height: 16.0px
+  }
+
+  .create-teacher .group {
+    background: rgba(255, 255, 255, 0.0);
+    top: 7px;
+    height: 40px;
+    width: 142px;
+    position: absolute;
+    margin: 0;
+    left: 13px
+  }
+
+  .create-teacher .group .beakr {
+    background: rgba(255, 255, 255, 0.0);
+    top: 8px;
+    height: 31px;
+    width: 110px;
+    position: absolute;
+    margin: 0;
+    left: 32px
+  }
+
+  .create-teacher .group .beaker-full {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 40px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .create-teacher .group .beaker-full .beaker {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 40px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .create-teacher .group .beaker-full .beaker .combined-shape {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 40px;
+    width: 26px;
+    position: relative;
+    margin: 0;
+    left: 0
+  }
+
+  .create-teacher .group .beaker-full .image2 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 21px;
+    height: 18px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    left: 1px
+  }
+
+  .create-teacher .group .beaker-full .oval4 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 29px;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    margin: 0;
+    left: 7px;
+    border-radius: 4px
+  }
+
+  .create-teacher .group .beaker-full .view12 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 25px;
+    height: 5px;
+    width: 6px;
+    position: absolute;
+    margin: 0;
+    left: 12px;
+    border-radius: 3px
+  }
+
+  .create-teacher .group .beaker-full .view13 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 31px;
+    height: 3px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 16px;
+    border-radius: 1px
+  }
+
+  .create-teacher .footer {
+    background: rgba(255, 255, 255, 0.0);
+    top: 795px;
+    height: 166px;
+    width: 1280px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .create-teacher .footer .view14 {
+    background: rgba(52, 52, 52, 1.0);
+    top: 0;
+    height: 166px;
+    width: 1280px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .create-teacher .footer .view15 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 48px;
+    height: 34px;
+    width: 117px;
+    position: absolute;
+    margin: 0;
+    left: 501px
+  }
+
+  .create-teacher .footer .view15 .image3 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 6px;
+    height: 27px;
+    width: 91px;
+    position: absolute;
+    margin: 0;
+    left: 26px
+  }
+
+  .create-teacher .footer .view15 .view16 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 34px;
+    width: 22px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .create-teacher .footer .view15 .view16 .view17 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 34px;
+    width: 22px;
+    position: absolute;
+    margin: 0;
+    left: 0
+  }
+
+  .create-teacher .footer .view15 .view16 .view17 .image4 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 0;
+    height: 34px;
+    width: 22px;
+    position: relative;
+    margin: 0;
+    left: 0
+  }
+
+  .create-teacher .footer .view15 .view16 .image5 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 17px;
+    height: 16px;
+    width: 20px;
+    position: absolute;
+    margin: 0;
+    left: 1px
+  }
+
+  .create-teacher .footer .view15 .view16 .view18 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 24px;
+    height: 7px;
+    width: 6px;
+    position: absolute;
+    margin: 0;
+    left: 6px;
+    border-radius: 3px
+  }
+
+  .create-teacher .footer .view15 .view16 .view19 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 20px;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    margin: 0;
+    left: 10px;
+    border-radius: 2px
+  }
+
+  .create-teacher .footer .view15 .view16 .view20 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 25px;
+    height: 3px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 13px;
+    border-radius: 1px
+  }
+
+  .create-teacher .footer .est2017 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 87px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 554px;
+    font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(216, 255, 171, 1.0);
+    text-align: center;
+    line-height: 17.0px
+  }
+
+  .create-teacher .footer .line4 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 19px;
+    height: 116px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 646px
+  }
+
+  .create-teacher .footer .contact-us-about-the {
+    background: rgba(255, 255, 255, 0.0);
+    top: 26px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 668px;
+    font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 18.0px
+  }
+
+  .create-teacher .rectangle11 {
+    background: rgba(246, 246, 246, 1.0);
+    top: 446px;
+    height: 80px;
+    width: 548px;
+    position: absolute;
+    margin: 0;
+    left: 426px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(126, 211, 33, 1.0)
+  }
+
+  .create-teacher .view21 {
+    background: rgba(246, 246, 246, 1.0);
+    top: 179px;
+    height: 34px;
+    width: 270px;
+    position: absolute;
+    margin: 0;
+    left: 426px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(126, 211, 33, 1.0)
+  }
+
+  .create-teacher .view22 {
+    background: rgba(246, 246, 246, 1.0);
+    top: 231px;
+    height: 34px;
+    width: 270px;
+    position: absolute;
+    margin: 0;
+    left: 426px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(126, 211, 33, 1.0)
+  }
+
+  .create-teacher .title {
+    background: rgba(255, 255, 255, 0.0);
+    top: 187px;
+    height: auto;
+    width: 53px;
+    position: absolute;
+    margin: 0;
+    left: 431px;
+    font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+    font-size: 9.0px;
+    color: rgba(165, 167, 168, 1.0);
+    text-align: left;
+    letter-spacing: .09px;
+    line-height: 9.0px
+  }
+
+  .create-teacher .faculty-names {
+    background: rgba(255, 255, 255, 0.0);
+    top: 239px;
+    height: auto;
+    width: 101px;
+    position: absolute;
+    margin: 0;
+    left: 429px;
+    font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+    font-size: 9.0px;
+    color: rgba(165, 167, 168, 1.0);
+    text-align: left;
+    letter-spacing: .09px;
+    line-height: 9.0px
+  }
+
+  .create-teacher .view23 {
+    background: rgba(246, 246, 246, 1.0);
+    top: 283px;
+    height: 34px;
+    width: 211px;
+    position: absolute;
+    margin: 0;
+    left: 426px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(126, 211, 33, 1.0)
+  }
+
+  .create-teacher .expected-time-commit {
+    background: rgba(255, 255, 255, 0.0);
+    top: 291px;
+    height: auto;
+    width: 213px;
+    position: absolute;
+    margin: 0;
+    left: 429px;
+    font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+    font-size: 9.0px;
+    color: rgba(165, 167, 168, 1.0);
+    text-align: left;
+    letter-spacing: .09px;
+    line-height: 9.0px
+  }
+
+  .create-teacher .view24 {
+    background: rgba(246, 246, 246, 1.0);
+    top: 335px;
+    height: 34px;
+    width: 120px;
+    position: absolute;
+    margin: 0;
+    left: 426px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(126, 211, 33, 1.0)
+  }
+
+  .create-teacher .start-date-mm-dd-yy {
+    background: rgba(255, 255, 255, 0.0);
+    top: 343px;
+    height: auto;
+    width: 101px;
+    position: absolute;
+    margin: 0;
+    left: 429px;
+    font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+    font-size: 9.0px;
+    color: rgba(165, 167, 168, 1.0);
+    text-align: left;
+    letter-spacing: .09px;
+    line-height: 9.0px
+  }
+
+  .create-teacher .view25 {
+    background: rgba(246, 246, 246, 1.0);
+    top: 335px;
+    height: 34px;
+    width: 120px;
+    position: absolute;
+    margin: 0;
+    left: 561px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(126, 211, 33, 1.0)
+  }
+
+  .create-teacher .end-date-mm-dd-yy {
+    background: rgba(255, 255, 255, 0.0);
+    top: 343px;
+    height: auto;
+    width: 101px;
+    position: absolute;
+    margin: 0;
+    left: 566px;
+    font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+    font-size: 9.0px;
+    color: rgba(165, 167, 168, 1.0);
+    text-align: left;
+    letter-spacing: .09px;
+    line-height: 9.0px
+  }
+
+  .create-teacher .view26 {
+    background: rgba(246, 246, 246, 1.0);
+    top: 387px;
+    height: 34px;
+    width: 211px;
+    position: absolute;
+    margin: 0;
+    left: 426px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(126, 211, 33, 1.0)
+  }
+
+  .create-teacher .salary-optional {
+    background: rgba(255, 255, 255, 0.0);
+    top: 395px;
+    height: auto;
+    width: 101px;
+    position: absolute;
+    margin: 0;
+    left: 429px;
+    font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+    font-size: 9.0px;
+    color: rgba(165, 167, 168, 1.0);
+    text-align: left;
+    letter-spacing: .09px;
+    line-height: 9.0px
+  }
+
+  .create-teacher .summary {
+    background: rgba(255, 255, 255, 0.0);
+    top: 454px;
+    height: auto;
+    width: 167px;
+    position: absolute;
+    margin: 0;
+    left: 431px;
+    font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+    font-size: 9.0px;
+    color: rgba(165, 167, 168, 1.0);
+    text-align: left;
+    letter-spacing: .09px;
+    line-height: 9.0px
+  }
+
+  .create-teacher .view27 {
+    background: rgba(246, 246, 246, 1.0);
+    top: 547px;
+    height: 80px;
+    width: 548px;
+    position: absolute;
+    margin: 0;
+    left: 426px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(126, 211, 33, 1.0)
+  }
+
+  .create-teacher .additional-details {
+    background: rgba(255, 255, 255, 0.0);
+    top: 555px;
+    height: auto;
+    width: 167px;
+    position: absolute;
+    margin: 0;
+    left: 431px;
+    font-family: 'STHeitiSC-Light', Helvetica, Arial, serif;
+    font-size: 9.0px;
+    color: rgba(165, 167, 168, 1.0);
+    text-align: left;
+    letter-spacing: .09px;
+    line-height: 9.0px
+  }
+
+  .create-teacher .rectangle3 {
+    background: rgba(126, 210, 33, 1.0);
+    top: 647px;
+    height: 57px;
+    width: 208px;
+    position: absolute;
+    margin: 0;
+    left: 766px
+  }
+
+  .create-teacher .label1 {
+    background: rgba(255, 255, 255, 0.0);
+    top: 664px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 839px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 20.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 24.0px
+  }
+
+  .create-teacher .view28 {
+    background: rgba(217, 255, 175, 1.0);
+    top: 649px;
+    height: 57px;
+    width: 208px;
+    position: absolute;
+    margin: 0;
+    left: 424px
+  }
+
+  .create-teacher .upload-files {
+    background: rgba(255, 255, 255, 0.0);
+    top: 666px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 471px;
+    font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+    font-size: 20.0px;
+    color: rgba(52, 52, 52, 1.0);
+    text-align: center;
+    line-height: 24.0px
+  }
+
+  .anima-animate-appear {
+    opacity: 0;
+    display: block;
+    -webkit-animation: anima-reveal .3s ease-in-out 1 normal forwards;
+    -moz-animation: anima-reveal .3s ease-in 1 normal forwards;
+    -o-animation: anima-reveal .3s ease-in-out 1 normal forwards;
+    animation: anima-reveal .3s ease-in-out 1 normal forwards
+  }
+
+  .anima-animate-disappear {
+    opacity: 1;
+    display: block;
+    -webkit-animation: anima-reveal .3s ease-in-out 1 reverse forwards;
+    -moz-animation: anima-reveal .3s ease-in 1 normal forwards;
+    -o-animation: anima-reveal .3s ease-in-out 1 reverse forwards;
+    animation: anima-reveal .3s ease-in-out 1 reverse forwards
+  }
+
+  .anima-animate-nodelay {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+    animation-delay: 0
+  }
+
+  @-webkit-keyframes anima-reveal {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
+
+  @-moz-keyframes anima-reveal {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
+
+  @-o-keyframes anima-reveal {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
+
+  @keyframes anima-reveal {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
